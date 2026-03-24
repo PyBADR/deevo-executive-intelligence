@@ -1,3 +1,5 @@
+const path = require("path");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -16,8 +18,10 @@ const nextConfig = {
   // Production optimizations
   poweredByHeader: false,
 
-  // Note: standalone output removed — not needed for Vercel and causes
-  // ENOENT with route groups like (dashboard) in Next.js 14
+  // Fix ENOENT with route groups like (dashboard) in monorepo builds
+  experimental: {
+    outputFileTracingRoot: path.join(__dirname, "../../"),
+  },
 };
 
 module.exports = nextConfig;

@@ -16,8 +16,8 @@ const nextConfig = {
   // Production optimizations
   poweredByHeader: false,
 
-  // Output standalone for Docker/Vercel
-  output: "standalone",
+  // Note: standalone output removed — not needed for Vercel and causes
+  // ENOENT with route groups like (dashboard) in Next.js 14
 };
 
 module.exports = nextConfig;

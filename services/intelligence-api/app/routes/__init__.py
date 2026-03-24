@@ -1,0 +1,11 @@
+from .health import router as health_router
+from .scenarios import router as scenarios_router
+from .intelligence import router as intelligence_router
+from .countries import router as countries_router
+from .sectors import router as sectors_router
+from .decisions import router as decisions_router
+from .graph import router as graph_router
+from .narratives import router as narratives_router
+from .scoring import router as scoring_router
+from .simulation import router as simulation_router
+from .ingestion import router as ingestion_router

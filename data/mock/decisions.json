@@ -1,0 +1,537 @@
+[
+  {
+    "recommendation": {
+      "id": "3c46c037",
+      "scenario_id": "scenario_001",
+      "title": {
+        "en": "Activate Critical Infrastructure Protection Protocol",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u0628\u0631\u0648\u062a\u0648\u0643\u0648\u0644 \u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0627\u0644\u062d\u0631\u062c\u0629"
+      },
+      "action": {
+        "en": "Engage Tier 1 sovereign sector monitoring: aviation, oil & gas, banking, ports, logistics, energy infrastructure. Escalate corridor dependency alerts and trigger contingency routing reviews across all GCC operations.",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u0645\u0631\u0627\u0642\u0628\u0629 \u0627\u0644\u0642\u0637\u0627\u0639\u0627\u062a \u0627\u0644\u0633\u064a\u0627\u062f\u064a\u0629 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 \u0627\u0644\u0623\u0648\u0644: \u0627\u0644\u0637\u064a\u0631\u0627\u0646\u060c \u0627\u0644\u0646\u0641\u0637 \u0648\u0627\u0644\u063a\u0627\u0632\u060c \u0627\u0644\u0628\u0646\u0648\u0643\u060c \u0627\u0644\u0645\u0648\u0627\u0646\u0626\u060c \u0627\u0644\u0644\u0648\u062c\u0633\u062a\u064a\u0627\u062a\u060c \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0644\u0644\u0637\u0627\u0642\u0629. \u062a\u0635\u0639\u064a\u062f \u062a\u0646\u0628\u064a\u0647\u0627\u062a \u0627\u0644\u0627\u0639\u062a\u0645\u0627\u062f \u0639\u0644\u0649 \u0627\u0644\u0645\u0645\u0631\u0627\u062a \u0648\u0625\u062c\u0631\u0627\u0621 \u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0627\u0644\u062a\u0648\u062c\u064a\u0647 \u0627\u0644\u0628\u062f\u064a\u0644."
+      },
+      "priority": "immediate",
+      "confidence": 0.92,
+      "affected_entities": [
+        "Supply Chain",
+        "Operations",
+        "Risk Management",
+        "C-Suite",
+        "Regulators"
+      ],
+      "pressure": {
+        "score": 54.7,
+        "urgency": "immediate",
+        "affected_stakeholders": [
+          "Supply Chain",
+          "Operations",
+          "Risk Management",
+          "C-Suite",
+          "Regulators"
+        ],
+        "primary_drivers": [
+          "Tier 1 sovereign sector pressure",
+          "Trade route disruption",
+          "Critical infrastructure exposure"
+        ]
+      }
+    },
+    "explanation": {
+      "decision_id": "3c46c037",
+      "what_happened": {
+        "en": "Red Sea Shipping Disruption Escalation: Escalating disruption to Red Sea shipping corridors increases re-routing costs, delays cargo, raises maritime insurance premiums, and creates second-order inflation and trade pressure across the GCC.",
+        "ar": "\u062a\u0635\u0627\u0639\u062f \u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0641\u064a \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631: \u062a\u0635\u0627\u0639\u062f \u0627\u0644\u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0641\u064a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0628\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631 \u064a\u0632\u064a\u062f \u062a\u0643\u0627\u0644\u064a\u0641 \u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u062a\u0648\u062c\u064a\u0647 \u0648\u064a\u0624\u062e\u0631 \u0627\u0644\u0634\u062d\u0646\u0627\u062a \u0648\u064a\u0631\u0641\u0639 \u0623\u0642\u0633\u0627\u0637 \u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0628\u062d\u0631\u064a \u0648\u064a\u062e\u0644\u0642 \u0636\u063a\u0648\u0637 \u062a\u0636\u062e\u0645\u064a\u0629 \u0648\u062a\u062c\u0627\u0631\u064a\u0629 \u0645\u0646 \u0627\u0644\u062f\u0631\u062c\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 \u0639\u0628\u0631 \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c."
+      },
+      "why_it_matters": {
+        "en": "This scenario generates 3 macro pressure signals (Trade Risk, Shipping Pressure, Inflation Pressure), which propagate into 4 GDP components (Net Exports, Government Spending, Household Consumption, Business Investment), affecting 0 GCC countries at elevated risk or higher. The strongest sector transmission is into AVIATION, LOGISTICS, PORTS_MARITIME.",
+        "ar": "\u064a\u0648\u0644\u062f \u0647\u0630\u0627 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648 3 \u0625\u0634\u0627\u0631\u0627\u062a \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0643\u0628\u0631\u0649 \u062a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 4 \u0645\u0643\u0648\u0646\u0627\u062a \u0645\u0646 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u060c \u0645\u0624\u062b\u0631\u0629 \u0639\u0644\u0649 0 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0628\u0645\u0633\u062a\u0648\u0649 \u0645\u062e\u0627\u0637\u0631 \u0645\u0631\u062a\u0641\u0639 \u0623\u0648 \u0623\u0639\u0644\u0649."
+      },
+      "who_is_affected": [
+        "Supply Chain",
+        "Operations",
+        "Risk Management",
+        "C-Suite",
+        "Regulators"
+      ],
+      "gdp_components_moved": [
+        "NET_EXPORTS",
+        "GOVERNMENT_SPENDING",
+        "HOUSEHOLD_CONSUMPTION",
+        "BUSINESS_INVESTMENT"
+      ],
+      "sectors_under_pressure": [
+        "AVIATION",
+        "LOGISTICS",
+        "PORTS_MARITIME",
+        "INSURANCE"
+      ],
+      "why_this_recommendation": {
+        "en": "Decision pressure score is 55/100 with immediate urgency. Primary drivers: Tier 1 sovereign sector pressure, Trade route disruption, Critical infrastructure exposure. This action addresses the strongest transmission channels before they compound into broader economic stress.",
+        "ar": "\u062f\u0631\u062c\u0629 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631 55/100 \u0645\u0639 \u0625\u0644\u062d\u0627\u062d immediate. \u0627\u0644\u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629: Tier 1 sovereign sector pressure, Trade route disruption, Critical infrastructure exposure. \u064a\u0639\u0627\u0644\u062c \u0647\u0630\u0627 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0623\u0642\u0648\u0649 \u0642\u0646\u0648\u0627\u062a \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0642\u0628\u0644 \u0623\u0646 \u062a\u062a\u062d\u0648\u0644 \u0625\u0644\u0649 \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0623\u0648\u0633\u0639."
+      },
+      "likely_next_developments": [
+        {
+          "en": "Aviation sector (exposure 44) is likely to see operational adjustments, pricing reviews, and risk posture changes within the near term.",
+          "ar": "\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0623\u0646 \u064a\u0634\u0647\u062f \u0642\u0637\u0627\u0639 AVIATION (\u0627\u0644\u062a\u0639\u0631\u0636 44) \u062a\u0639\u062f\u064a\u0644\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u062a\u0633\u0639\u064a\u0631 \u0648\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0641\u064a \u0648\u0636\u0639 \u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u062f\u0649 \u0627\u0644\u0642\u0631\u064a\u0628."
+        },
+        {
+          "en": "With 4+ GCC countries affected, cross-border coordination and policy alignment pressures are expected to increase.",
+          "ar": "\u0645\u0639 \u062a\u0623\u062b\u0631 4 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0623\u0648 \u0623\u0643\u062b\u0631\u060c \u0645\u0646 \u0627\u0644\u0645\u062a\u0648\u0642\u0639 \u0632\u064a\u0627\u062f\u0629 \u0636\u063a\u0648\u0637 \u0627\u0644\u062a\u0646\u0633\u064a\u0642 \u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648\u062f \u0648\u0645\u0648\u0627\u0621\u0645\u0629 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a."
+        },
+        {
+          "en": "Continue monitoring scenario evolution. Intelligence refresh recommended within 48 hours or upon material development.",
+          "ar": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0641\u064a \u0645\u0631\u0627\u0642\u0628\u0629 \u062a\u0637\u0648\u0631 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648. \u064a\u0648\u0635\u0649 \u0628\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629 \u062e\u0644\u0627\u0644 48 \u0633\u0627\u0639\u0629 \u0623\u0648 \u0639\u0646\u062f \u0623\u064a \u062a\u0637\u0648\u0631 \u062c\u0648\u0647\u0631\u064a."
+        }
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "recommendation": {
+      "id": "9caee39d",
+      "scenario_id": "scenario_001",
+      "title": {
+        "en": "Protect Financial System Decisions",
+        "ar": "\u062d\u0645\u0627\u064a\u0629 \u0642\u0631\u0627\u0631\u0627\u062a \u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u0645\u0627\u0644\u064a"
+      },
+      "action": {
+        "en": "Introduce sector-specific stress narratives into credit committees, claims reviews, and underwriting decisions. Tighten scenario-based portfolio monitoring across banking, insurance, and capital markets.",
+        "ar": "\u0625\u062f\u062e\u0627\u0644 \u0633\u0631\u062f\u064a\u0627\u062a \u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639\u064a \u0641\u064a \u0644\u062c\u0627\u0646 \u0627\u0644\u0627\u0626\u062a\u0645\u0627\u0646 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u0627\u0644\u0645\u0637\u0627\u0644\u0628\u0627\u062a \u0648\u0642\u0631\u0627\u0631\u0627\u062a \u0627\u0644\u0627\u0643\u062a\u062a\u0627\u0628. \u062a\u0634\u062f\u064a\u062f \u0645\u0631\u0627\u0642\u0628\u0629 \u0627\u0644\u0645\u062d\u0627\u0641\u0638 \u0639\u0628\u0631 \u0627\u0644\u0628\u0646\u0648\u0643 \u0648\u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0648\u0623\u0633\u0648\u0627\u0642 \u0627\u0644\u0645\u0627\u0644."
+      },
+      "priority": "immediate",
+      "confidence": 0.92,
+      "affected_entities": [
+        "Banking",
+        "Insurance",
+        "Capital Markets",
+        "Credit Risk",
+        "Underwriting",
+        "CFO"
+      ],
+      "pressure": {
+        "score": 54.7,
+        "urgency": "immediate",
+        "affected_stakeholders": [
+          "Banking",
+          "Insurance",
+          "Capital Markets",
+          "Credit Risk",
+          "Underwriting",
+          "CFO"
+        ],
+        "primary_drivers": [
+          "Credit tightening",
+          "Claims pressure",
+          "Risk repricing",
+          "Liquidity stress"
+        ]
+      }
+    },
+    "explanation": {
+      "decision_id": "9caee39d",
+      "what_happened": {
+        "en": "Red Sea Shipping Disruption Escalation: Escalating disruption to Red Sea shipping corridors increases re-routing costs, delays cargo, raises maritime insurance premiums, and creates second-order inflation and trade pressure across the GCC.",
+        "ar": "\u062a\u0635\u0627\u0639\u062f \u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0641\u064a \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631: \u062a\u0635\u0627\u0639\u062f \u0627\u0644\u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0641\u064a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0628\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631 \u064a\u0632\u064a\u062f \u062a\u0643\u0627\u0644\u064a\u0641 \u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u062a\u0648\u062c\u064a\u0647 \u0648\u064a\u0624\u062e\u0631 \u0627\u0644\u0634\u062d\u0646\u0627\u062a \u0648\u064a\u0631\u0641\u0639 \u0623\u0642\u0633\u0627\u0637 \u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0628\u062d\u0631\u064a \u0648\u064a\u062e\u0644\u0642 \u0636\u063a\u0648\u0637 \u062a\u0636\u062e\u0645\u064a\u0629 \u0648\u062a\u062c\u0627\u0631\u064a\u0629 \u0645\u0646 \u0627\u0644\u062f\u0631\u062c\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 \u0639\u0628\u0631 \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c."
+      },
+      "why_it_matters": {
+        "en": "This scenario generates 3 macro pressure signals (Trade Risk, Shipping Pressure, Inflation Pressure), which propagate into 4 GDP components (Net Exports, Government Spending, Household Consumption, Business Investment), affecting 0 GCC countries at elevated risk or higher. The strongest sector transmission is into AVIATION, LOGISTICS, PORTS_MARITIME.",
+        "ar": "\u064a\u0648\u0644\u062f \u0647\u0630\u0627 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648 3 \u0625\u0634\u0627\u0631\u0627\u062a \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0643\u0628\u0631\u0649 \u062a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 4 \u0645\u0643\u0648\u0646\u0627\u062a \u0645\u0646 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u060c \u0645\u0624\u062b\u0631\u0629 \u0639\u0644\u0649 0 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0628\u0645\u0633\u062a\u0648\u0649 \u0645\u062e\u0627\u0637\u0631 \u0645\u0631\u062a\u0641\u0639 \u0623\u0648 \u0623\u0639\u0644\u0649."
+      },
+      "who_is_affected": [
+        "Banking",
+        "Insurance",
+        "Capital Markets",
+        "Credit Risk",
+        "Underwriting",
+        "CFO"
+      ],
+      "gdp_components_moved": [
+        "NET_EXPORTS",
+        "GOVERNMENT_SPENDING",
+        "HOUSEHOLD_CONSUMPTION",
+        "BUSINESS_INVESTMENT"
+      ],
+      "sectors_under_pressure": [
+        "AVIATION",
+        "LOGISTICS",
+        "PORTS_MARITIME",
+        "INSURANCE"
+      ],
+      "why_this_recommendation": {
+        "en": "Decision pressure score is 55/100 with immediate urgency. Primary drivers: Credit tightening, Claims pressure, Risk repricing, Liquidity stress. This action addresses the strongest transmission channels before they compound into broader economic stress.",
+        "ar": "\u062f\u0631\u062c\u0629 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631 55/100 \u0645\u0639 \u0625\u0644\u062d\u0627\u062d immediate. \u0627\u0644\u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629: Credit tightening, Claims pressure, Risk repricing, Liquidity stress. \u064a\u0639\u0627\u0644\u062c \u0647\u0630\u0627 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0623\u0642\u0648\u0649 \u0642\u0646\u0648\u0627\u062a \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0642\u0628\u0644 \u0623\u0646 \u062a\u062a\u062d\u0648\u0644 \u0625\u0644\u0649 \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0623\u0648\u0633\u0639."
+      },
+      "likely_next_developments": [
+        {
+          "en": "Aviation sector (exposure 44) is likely to see operational adjustments, pricing reviews, and risk posture changes within the near term.",
+          "ar": "\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0623\u0646 \u064a\u0634\u0647\u062f \u0642\u0637\u0627\u0639 AVIATION (\u0627\u0644\u062a\u0639\u0631\u0636 44) \u062a\u0639\u062f\u064a\u0644\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u062a\u0633\u0639\u064a\u0631 \u0648\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0641\u064a \u0648\u0636\u0639 \u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u062f\u0649 \u0627\u0644\u0642\u0631\u064a\u0628."
+        },
+        {
+          "en": "With 4+ GCC countries affected, cross-border coordination and policy alignment pressures are expected to increase.",
+          "ar": "\u0645\u0639 \u062a\u0623\u062b\u0631 4 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0623\u0648 \u0623\u0643\u062b\u0631\u060c \u0645\u0646 \u0627\u0644\u0645\u062a\u0648\u0642\u0639 \u0632\u064a\u0627\u062f\u0629 \u0636\u063a\u0648\u0637 \u0627\u0644\u062a\u0646\u0633\u064a\u0642 \u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648\u062f \u0648\u0645\u0648\u0627\u0621\u0645\u0629 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a."
+        },
+        {
+          "en": "Continue monitoring scenario evolution. Intelligence refresh recommended within 48 hours or upon material development.",
+          "ar": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0641\u064a \u0645\u0631\u0627\u0642\u0628\u0629 \u062a\u0637\u0648\u0631 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648. \u064a\u0648\u0635\u0649 \u0628\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629 \u062e\u0644\u0627\u0644 48 \u0633\u0627\u0639\u0629 \u0623\u0648 \u0639\u0646\u062f \u0623\u064a \u062a\u0637\u0648\u0631 \u062c\u0648\u0647\u0631\u064a."
+        }
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "recommendation": {
+      "id": "f94ba5a4",
+      "scenario_id": "scenario_001",
+      "title": {
+        "en": "Strengthen Export Corridor Intelligence",
+        "ar": "\u062a\u0639\u0632\u064a\u0632 \u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u062a\u0635\u062f\u064a\u0631"
+      },
+      "action": {
+        "en": "Deploy real-time corridor monitoring and establish alternative routing playbooks for top export channels. Engage aviation, ports, and logistics sectors for operational contingency.",
+        "ar": "\u0646\u0634\u0631 \u0645\u0631\u0627\u0642\u0628\u0629 \u0641\u0648\u0631\u064a\u0629 \u0644\u0644\u0645\u0645\u0631\u0627\u062a \u0648\u0625\u0646\u0634\u0627\u0621 \u062e\u0637\u0637 \u062a\u0648\u062c\u064a\u0647 \u0628\u062f\u064a\u0644\u0629 \u0644\u0642\u0646\u0648\u0627\u062a \u0627\u0644\u062a\u0635\u062f\u064a\u0631 \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629. \u0625\u0634\u0631\u0627\u0643 \u0642\u0637\u0627\u0639\u0627\u062a \u0627\u0644\u0637\u064a\u0631\u0627\u0646 \u0648\u0627\u0644\u0645\u0648\u0627\u0646\u0626 \u0648\u0627\u0644\u0644\u0648\u062c\u0633\u062a\u064a\u0627\u062a."
+      },
+      "priority": "immediate",
+      "confidence": 0.92,
+      "affected_entities": [
+        "Trade",
+        "Energy",
+        "Government Affairs",
+        "Operations",
+        "Aviation",
+        "Ports"
+      ],
+      "pressure": {
+        "score": 54.7,
+        "urgency": "immediate",
+        "affected_stakeholders": [
+          "Trade",
+          "Energy",
+          "Government Affairs",
+          "Operations",
+          "Aviation",
+          "Ports"
+        ],
+        "primary_drivers": [
+          "Export volume risk",
+          "Corridor disruption",
+          "Revenue concentration"
+        ]
+      }
+    },
+    "explanation": {
+      "decision_id": "f94ba5a4",
+      "what_happened": {
+        "en": "Red Sea Shipping Disruption Escalation: Escalating disruption to Red Sea shipping corridors increases re-routing costs, delays cargo, raises maritime insurance premiums, and creates second-order inflation and trade pressure across the GCC.",
+        "ar": "\u062a\u0635\u0627\u0639\u062f \u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0641\u064a \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631: \u062a\u0635\u0627\u0639\u062f \u0627\u0644\u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0641\u064a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0628\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631 \u064a\u0632\u064a\u062f \u062a\u0643\u0627\u0644\u064a\u0641 \u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u062a\u0648\u062c\u064a\u0647 \u0648\u064a\u0624\u062e\u0631 \u0627\u0644\u0634\u062d\u0646\u0627\u062a \u0648\u064a\u0631\u0641\u0639 \u0623\u0642\u0633\u0627\u0637 \u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0628\u062d\u0631\u064a \u0648\u064a\u062e\u0644\u0642 \u0636\u063a\u0648\u0637 \u062a\u0636\u062e\u0645\u064a\u0629 \u0648\u062a\u062c\u0627\u0631\u064a\u0629 \u0645\u0646 \u0627\u0644\u062f\u0631\u062c\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 \u0639\u0628\u0631 \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c."
+      },
+      "why_it_matters": {
+        "en": "This scenario generates 3 macro pressure signals (Trade Risk, Shipping Pressure, Inflation Pressure), which propagate into 4 GDP components (Net Exports, Government Spending, Household Consumption, Business Investment), affecting 0 GCC countries at elevated risk or higher. The strongest sector transmission is into AVIATION, LOGISTICS, PORTS_MARITIME.",
+        "ar": "\u064a\u0648\u0644\u062f \u0647\u0630\u0627 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648 3 \u0625\u0634\u0627\u0631\u0627\u062a \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0643\u0628\u0631\u0649 \u062a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 4 \u0645\u0643\u0648\u0646\u0627\u062a \u0645\u0646 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u060c \u0645\u0624\u062b\u0631\u0629 \u0639\u0644\u0649 0 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0628\u0645\u0633\u062a\u0648\u0649 \u0645\u062e\u0627\u0637\u0631 \u0645\u0631\u062a\u0641\u0639 \u0623\u0648 \u0623\u0639\u0644\u0649."
+      },
+      "who_is_affected": [
+        "Trade",
+        "Energy",
+        "Government Affairs",
+        "Operations",
+        "Aviation",
+        "Ports"
+      ],
+      "gdp_components_moved": [
+        "NET_EXPORTS",
+        "GOVERNMENT_SPENDING",
+        "HOUSEHOLD_CONSUMPTION",
+        "BUSINESS_INVESTMENT"
+      ],
+      "sectors_under_pressure": [
+        "AVIATION",
+        "LOGISTICS",
+        "PORTS_MARITIME",
+        "INSURANCE"
+      ],
+      "why_this_recommendation": {
+        "en": "Decision pressure score is 55/100 with immediate urgency. Primary drivers: Export volume risk, Corridor disruption, Revenue concentration. This action addresses the strongest transmission channels before they compound into broader economic stress.",
+        "ar": "\u062f\u0631\u062c\u0629 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631 55/100 \u0645\u0639 \u0625\u0644\u062d\u0627\u062d immediate. \u0627\u0644\u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629: Export volume risk, Corridor disruption, Revenue concentration. \u064a\u0639\u0627\u0644\u062c \u0647\u0630\u0627 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0623\u0642\u0648\u0649 \u0642\u0646\u0648\u0627\u062a \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0642\u0628\u0644 \u0623\u0646 \u062a\u062a\u062d\u0648\u0644 \u0625\u0644\u0649 \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0623\u0648\u0633\u0639."
+      },
+      "likely_next_developments": [
+        {
+          "en": "Aviation sector (exposure 44) is likely to see operational adjustments, pricing reviews, and risk posture changes within the near term.",
+          "ar": "\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0623\u0646 \u064a\u0634\u0647\u062f \u0642\u0637\u0627\u0639 AVIATION (\u0627\u0644\u062a\u0639\u0631\u0636 44) \u062a\u0639\u062f\u064a\u0644\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u062a\u0633\u0639\u064a\u0631 \u0648\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0641\u064a \u0648\u0636\u0639 \u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u062f\u0649 \u0627\u0644\u0642\u0631\u064a\u0628."
+        },
+        {
+          "en": "With 4+ GCC countries affected, cross-border coordination and policy alignment pressures are expected to increase.",
+          "ar": "\u0645\u0639 \u062a\u0623\u062b\u0631 4 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0623\u0648 \u0623\u0643\u062b\u0631\u060c \u0645\u0646 \u0627\u0644\u0645\u062a\u0648\u0642\u0639 \u0632\u064a\u0627\u062f\u0629 \u0636\u063a\u0648\u0637 \u0627\u0644\u062a\u0646\u0633\u064a\u0642 \u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648\u062f \u0648\u0645\u0648\u0627\u0621\u0645\u0629 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a."
+        },
+        {
+          "en": "Continue monitoring scenario evolution. Intelligence refresh recommended within 48 hours or upon material development.",
+          "ar": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0641\u064a \u0645\u0631\u0627\u0642\u0628\u0629 \u062a\u0637\u0648\u0631 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648. \u064a\u0648\u0635\u0649 \u0628\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629 \u062e\u0644\u0627\u0644 48 \u0633\u0627\u0639\u0629 \u0623\u0648 \u0639\u0646\u062f \u0623\u064a \u062a\u0637\u0648\u0631 \u062c\u0648\u0647\u0631\u064a."
+        }
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "recommendation": {
+      "id": "222e2180",
+      "scenario_id": "scenario_001",
+      "title": {
+        "en": "Monitor Consumer Demand Resilience",
+        "ar": "\u0645\u0631\u0627\u0642\u0628\u0629 \u0645\u0631\u0648\u0646\u0629 \u0627\u0644\u0637\u0644\u0628 \u0627\u0644\u0627\u0633\u062a\u0647\u0644\u0627\u0643\u064a"
+      },
+      "action": {
+        "en": "Track consumer confidence, discretionary spending patterns, and cost pass-through indicators. Prepare demand-side scenario plans for retail, e-commerce, and tourism sectors.",
+        "ar": "\u062a\u062a\u0628\u0639 \u062b\u0642\u0629 \u0627\u0644\u0645\u0633\u062a\u0647\u0644\u0643 \u0648\u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0625\u0646\u0641\u0627\u0642 \u0627\u0644\u062a\u0642\u062f\u064a\u0631\u064a \u0648\u0645\u0624\u0634\u0631\u0627\u062a \u0627\u0646\u062a\u0642\u0627\u0644 \u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641. \u0625\u0639\u062f\u0627\u062f \u062e\u0637\u0637 \u0633\u064a\u0646\u0627\u0631\u064a\u0648 \u062c\u0627\u0646\u0628 \u0627\u0644\u0637\u0644\u0628 \u0644\u0642\u0637\u0627\u0639\u0627\u062a \u0627\u0644\u062a\u062c\u0632\u0626\u0629 \u0648\u0627\u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0648\u0627\u0644\u0633\u064a\u0627\u062d\u0629."
+      },
+      "priority": "medium_term",
+      "confidence": 0.92,
+      "affected_entities": [
+        "Retail",
+        "Consumer Finance",
+        "Tourism",
+        "Marketing",
+        "Strategy"
+      ],
+      "pressure": {
+        "score": 54.7,
+        "urgency": "medium_term",
+        "affected_stakeholders": [
+          "Retail",
+          "Consumer Finance",
+          "Tourism",
+          "Marketing",
+          "Strategy"
+        ],
+        "primary_drivers": [
+          "Confidence erosion",
+          "Inflation pass-through",
+          "Spending contraction"
+        ]
+      }
+    },
+    "explanation": {
+      "decision_id": "222e2180",
+      "what_happened": {
+        "en": "Red Sea Shipping Disruption Escalation: Escalating disruption to Red Sea shipping corridors increases re-routing costs, delays cargo, raises maritime insurance premiums, and creates second-order inflation and trade pressure across the GCC.",
+        "ar": "\u062a\u0635\u0627\u0639\u062f \u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0641\u064a \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631: \u062a\u0635\u0627\u0639\u062f \u0627\u0644\u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0641\u064a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0628\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631 \u064a\u0632\u064a\u062f \u062a\u0643\u0627\u0644\u064a\u0641 \u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u062a\u0648\u062c\u064a\u0647 \u0648\u064a\u0624\u062e\u0631 \u0627\u0644\u0634\u062d\u0646\u0627\u062a \u0648\u064a\u0631\u0641\u0639 \u0623\u0642\u0633\u0627\u0637 \u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0628\u062d\u0631\u064a \u0648\u064a\u062e\u0644\u0642 \u0636\u063a\u0648\u0637 \u062a\u0636\u062e\u0645\u064a\u0629 \u0648\u062a\u062c\u0627\u0631\u064a\u0629 \u0645\u0646 \u0627\u0644\u062f\u0631\u062c\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 \u0639\u0628\u0631 \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c."
+      },
+      "why_it_matters": {
+        "en": "This scenario generates 3 macro pressure signals (Trade Risk, Shipping Pressure, Inflation Pressure), which propagate into 4 GDP components (Net Exports, Government Spending, Household Consumption, Business Investment), affecting 0 GCC countries at elevated risk or higher. The strongest sector transmission is into AVIATION, LOGISTICS, PORTS_MARITIME.",
+        "ar": "\u064a\u0648\u0644\u062f \u0647\u0630\u0627 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648 3 \u0625\u0634\u0627\u0631\u0627\u062a \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0643\u0628\u0631\u0649 \u062a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 4 \u0645\u0643\u0648\u0646\u0627\u062a \u0645\u0646 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u060c \u0645\u0624\u062b\u0631\u0629 \u0639\u0644\u0649 0 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0628\u0645\u0633\u062a\u0648\u0649 \u0645\u062e\u0627\u0637\u0631 \u0645\u0631\u062a\u0641\u0639 \u0623\u0648 \u0623\u0639\u0644\u0649."
+      },
+      "who_is_affected": [
+        "Retail",
+        "Consumer Finance",
+        "Tourism",
+        "Marketing",
+        "Strategy"
+      ],
+      "gdp_components_moved": [
+        "NET_EXPORTS",
+        "GOVERNMENT_SPENDING",
+        "HOUSEHOLD_CONSUMPTION",
+        "BUSINESS_INVESTMENT"
+      ],
+      "sectors_under_pressure": [
+        "AVIATION",
+        "LOGISTICS",
+        "PORTS_MARITIME",
+        "INSURANCE"
+      ],
+      "why_this_recommendation": {
+        "en": "Decision pressure score is 55/100 with medium_term urgency. Primary drivers: Confidence erosion, Inflation pass-through, Spending contraction. This action addresses the strongest transmission channels before they compound into broader economic stress.",
+        "ar": "\u062f\u0631\u062c\u0629 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631 55/100 \u0645\u0639 \u0625\u0644\u062d\u0627\u062d medium_term. \u0627\u0644\u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629: Confidence erosion, Inflation pass-through, Spending contraction. \u064a\u0639\u0627\u0644\u062c \u0647\u0630\u0627 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0623\u0642\u0648\u0649 \u0642\u0646\u0648\u0627\u062a \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0642\u0628\u0644 \u0623\u0646 \u062a\u062a\u062d\u0648\u0644 \u0625\u0644\u0649 \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0623\u0648\u0633\u0639."
+      },
+      "likely_next_developments": [
+        {
+          "en": "Aviation sector (exposure 44) is likely to see operational adjustments, pricing reviews, and risk posture changes within the near term.",
+          "ar": "\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0623\u0646 \u064a\u0634\u0647\u062f \u0642\u0637\u0627\u0639 AVIATION (\u0627\u0644\u062a\u0639\u0631\u0636 44) \u062a\u0639\u062f\u064a\u0644\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u062a\u0633\u0639\u064a\u0631 \u0648\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0641\u064a \u0648\u0636\u0639 \u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u062f\u0649 \u0627\u0644\u0642\u0631\u064a\u0628."
+        },
+        {
+          "en": "With 4+ GCC countries affected, cross-border coordination and policy alignment pressures are expected to increase.",
+          "ar": "\u0645\u0639 \u062a\u0623\u062b\u0631 4 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0623\u0648 \u0623\u0643\u062b\u0631\u060c \u0645\u0646 \u0627\u0644\u0645\u062a\u0648\u0642\u0639 \u0632\u064a\u0627\u062f\u0629 \u0636\u063a\u0648\u0637 \u0627\u0644\u062a\u0646\u0633\u064a\u0642 \u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648\u062f \u0648\u0645\u0648\u0627\u0621\u0645\u0629 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a."
+        },
+        {
+          "en": "Continue monitoring scenario evolution. Intelligence refresh recommended within 48 hours or upon material development.",
+          "ar": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0641\u064a \u0645\u0631\u0627\u0642\u0628\u0629 \u062a\u0637\u0648\u0631 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648. \u064a\u0648\u0635\u0649 \u0628\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629 \u062e\u0644\u0627\u0644 48 \u0633\u0627\u0639\u0629 \u0623\u0648 \u0639\u0646\u062f \u0623\u064a \u062a\u0637\u0648\u0631 \u062c\u0648\u0647\u0631\u064a."
+        }
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "recommendation": {
+      "id": "e27d61ab",
+      "scenario_id": "scenario_001",
+      "title": {
+        "en": "Engage Aviation & Maritime Contingency Planning",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u0627\u0644\u062a\u062e\u0637\u064a\u0637 \u0627\u0644\u0627\u062d\u062a\u064a\u0627\u0637\u064a \u0644\u0644\u0637\u064a\u0631\u0627\u0646 \u0648\u0627\u0644\u0646\u0642\u0644 \u0627\u0644\u0628\u062d\u0631\u064a"
+      },
+      "action": {
+        "en": "Activate route sensitivity analysis for aviation and maritime corridors. Assess cargo dependency, tourism flows, and geopolitical exposure. Prepare rerouting options.",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u062a\u062d\u0644\u064a\u0644 \u062d\u0633\u0627\u0633\u064a\u0629 \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062a \u0644\u0644\u0645\u0645\u0631\u0627\u062a \u0627\u0644\u062c\u0648\u064a\u0629 \u0648\u0627\u0644\u0628\u062d\u0631\u064a\u0629. \u062a\u0642\u064a\u064a\u0645 \u0627\u0644\u0627\u0639\u062a\u0645\u0627\u062f \u0639\u0644\u0649 \u0627\u0644\u0634\u062d\u0646 \u0648\u062a\u062f\u0641\u0642\u0627\u062a \u0627\u0644\u0633\u064a\u0627\u062d\u0629 \u0648\u0627\u0644\u062a\u0639\u0631\u0636 \u0627\u0644\u062c\u064a\u0648\u0633\u064a\u0627\u0633\u064a."
+      },
+      "priority": "immediate",
+      "confidence": 0.92,
+      "affected_entities": [
+        "Aviation Authority",
+        "Port Authority",
+        "Trade",
+        "Tourism",
+        "Logistics"
+      ],
+      "pressure": {
+        "score": 54.7,
+        "urgency": "immediate",
+        "affected_stakeholders": [
+          "Aviation Authority",
+          "Port Authority",
+          "Trade",
+          "Tourism",
+          "Logistics"
+        ],
+        "primary_drivers": [
+          "Route sensitivity",
+          "Corridor dependency",
+          "Cargo/tourism disruption"
+        ]
+      }
+    },
+    "explanation": {
+      "decision_id": "e27d61ab",
+      "what_happened": {
+        "en": "Red Sea Shipping Disruption Escalation: Escalating disruption to Red Sea shipping corridors increases re-routing costs, delays cargo, raises maritime insurance premiums, and creates second-order inflation and trade pressure across the GCC.",
+        "ar": "\u062a\u0635\u0627\u0639\u062f \u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0641\u064a \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631: \u062a\u0635\u0627\u0639\u062f \u0627\u0644\u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0641\u064a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0628\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631 \u064a\u0632\u064a\u062f \u062a\u0643\u0627\u0644\u064a\u0641 \u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u062a\u0648\u062c\u064a\u0647 \u0648\u064a\u0624\u062e\u0631 \u0627\u0644\u0634\u062d\u0646\u0627\u062a \u0648\u064a\u0631\u0641\u0639 \u0623\u0642\u0633\u0627\u0637 \u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0628\u062d\u0631\u064a \u0648\u064a\u062e\u0644\u0642 \u0636\u063a\u0648\u0637 \u062a\u0636\u062e\u0645\u064a\u0629 \u0648\u062a\u062c\u0627\u0631\u064a\u0629 \u0645\u0646 \u0627\u0644\u062f\u0631\u062c\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 \u0639\u0628\u0631 \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c."
+      },
+      "why_it_matters": {
+        "en": "This scenario generates 3 macro pressure signals (Trade Risk, Shipping Pressure, Inflation Pressure), which propagate into 4 GDP components (Net Exports, Government Spending, Household Consumption, Business Investment), affecting 0 GCC countries at elevated risk or higher. The strongest sector transmission is into AVIATION, LOGISTICS, PORTS_MARITIME.",
+        "ar": "\u064a\u0648\u0644\u062f \u0647\u0630\u0627 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648 3 \u0625\u0634\u0627\u0631\u0627\u062a \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0643\u0628\u0631\u0649 \u062a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 4 \u0645\u0643\u0648\u0646\u0627\u062a \u0645\u0646 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u060c \u0645\u0624\u062b\u0631\u0629 \u0639\u0644\u0649 0 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0628\u0645\u0633\u062a\u0648\u0649 \u0645\u062e\u0627\u0637\u0631 \u0645\u0631\u062a\u0641\u0639 \u0623\u0648 \u0623\u0639\u0644\u0649."
+      },
+      "who_is_affected": [
+        "Aviation Authority",
+        "Port Authority",
+        "Trade",
+        "Tourism",
+        "Logistics"
+      ],
+      "gdp_components_moved": [
+        "NET_EXPORTS",
+        "GOVERNMENT_SPENDING",
+        "HOUSEHOLD_CONSUMPTION",
+        "BUSINESS_INVESTMENT"
+      ],
+      "sectors_under_pressure": [
+        "AVIATION",
+        "LOGISTICS",
+        "PORTS_MARITIME",
+        "INSURANCE"
+      ],
+      "why_this_recommendation": {
+        "en": "Decision pressure score is 55/100 with immediate urgency. Primary drivers: Route sensitivity, Corridor dependency, Cargo/tourism disruption. This action addresses the strongest transmission channels before they compound into broader economic stress.",
+        "ar": "\u062f\u0631\u062c\u0629 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631 55/100 \u0645\u0639 \u0625\u0644\u062d\u0627\u062d immediate. \u0627\u0644\u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629: Route sensitivity, Corridor dependency, Cargo/tourism disruption. \u064a\u0639\u0627\u0644\u062c \u0647\u0630\u0627 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0623\u0642\u0648\u0649 \u0642\u0646\u0648\u0627\u062a \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0642\u0628\u0644 \u0623\u0646 \u062a\u062a\u062d\u0648\u0644 \u0625\u0644\u0649 \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0623\u0648\u0633\u0639."
+      },
+      "likely_next_developments": [
+        {
+          "en": "Aviation sector (exposure 44) is likely to see operational adjustments, pricing reviews, and risk posture changes within the near term.",
+          "ar": "\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0623\u0646 \u064a\u0634\u0647\u062f \u0642\u0637\u0627\u0639 AVIATION (\u0627\u0644\u062a\u0639\u0631\u0636 44) \u062a\u0639\u062f\u064a\u0644\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u062a\u0633\u0639\u064a\u0631 \u0648\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0641\u064a \u0648\u0636\u0639 \u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u062f\u0649 \u0627\u0644\u0642\u0631\u064a\u0628."
+        },
+        {
+          "en": "With 4+ GCC countries affected, cross-border coordination and policy alignment pressures are expected to increase.",
+          "ar": "\u0645\u0639 \u062a\u0623\u062b\u0631 4 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0623\u0648 \u0623\u0643\u062b\u0631\u060c \u0645\u0646 \u0627\u0644\u0645\u062a\u0648\u0642\u0639 \u0632\u064a\u0627\u062f\u0629 \u0636\u063a\u0648\u0637 \u0627\u0644\u062a\u0646\u0633\u064a\u0642 \u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648\u062f \u0648\u0645\u0648\u0627\u0621\u0645\u0629 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a."
+        },
+        {
+          "en": "Continue monitoring scenario evolution. Intelligence refresh recommended within 48 hours or upon material development.",
+          "ar": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0641\u064a \u0645\u0631\u0627\u0642\u0628\u0629 \u062a\u0637\u0648\u0631 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648. \u064a\u0648\u0635\u0649 \u0628\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629 \u062e\u0644\u0627\u0644 48 \u0633\u0627\u0639\u0629 \u0623\u0648 \u0639\u0646\u062f \u0623\u064a \u062a\u0637\u0648\u0631 \u062c\u0648\u0647\u0631\u064a."
+        }
+      ],
+      "confidence": 0.92
+    }
+  },
+  {
+    "recommendation": {
+      "id": "ee7cf671",
+      "scenario_id": "scenario_001",
+      "title": {
+        "en": "Activate Sovereign Fiscal Stress Protocol",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u0628\u0631\u0648\u062a\u0648\u0643\u0648\u0644 \u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0645\u0627\u0644\u064a \u0627\u0644\u0633\u064a\u0627\u062f\u064a"
+      },
+      "action": {
+        "en": "Oil & gas exposure combined with government spending pressure requires immediate fiscal buffer assessment. Engage sovereign wealth funds and government finance teams.",
+        "ar": "\u0627\u0644\u062a\u0639\u0631\u0636 \u0627\u0644\u0646\u0641\u0637\u064a \u0645\u0639 \u0636\u063a\u0648\u0637 \u0627\u0644\u0625\u0646\u0641\u0627\u0642 \u0627\u0644\u062d\u0643\u0648\u0645\u064a \u064a\u062a\u0637\u0644\u0628 \u062a\u0642\u064a\u064a\u0645\u0627\u064b \u0641\u0648\u0631\u064a\u0627\u064b \u0644\u0644\u0627\u062d\u062a\u064a\u0627\u0637\u064a\u0627\u062a \u0627\u0644\u0645\u0627\u0644\u064a\u0629. \u0625\u0634\u0631\u0627\u0643 \u0635\u0646\u0627\u062f\u064a\u0642 \u0627\u0644\u062b\u0631\u0648\u0629 \u0627\u0644\u0633\u064a\u0627\u062f\u064a\u0629 \u0648\u0641\u0631\u0642 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629."
+      },
+      "priority": "immediate",
+      "confidence": 0.92,
+      "affected_entities": [
+        "Finance Ministry",
+        "SWFs",
+        "Central Bank",
+        "Budget",
+        "C-Suite"
+      ],
+      "pressure": {
+        "score": 54.7,
+        "urgency": "immediate",
+        "affected_stakeholders": [
+          "Finance Ministry",
+          "SWFs",
+          "Central Bank",
+          "Budget",
+          "C-Suite"
+        ],
+        "primary_drivers": [
+          "Oil revenue sensitivity",
+          "Fiscal buffer strain",
+          "Spending reallocation"
+        ]
+      }
+    },
+    "explanation": {
+      "decision_id": "ee7cf671",
+      "what_happened": {
+        "en": "Red Sea Shipping Disruption Escalation: Escalating disruption to Red Sea shipping corridors increases re-routing costs, delays cargo, raises maritime insurance premiums, and creates second-order inflation and trade pressure across the GCC.",
+        "ar": "\u062a\u0635\u0627\u0639\u062f \u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0641\u064a \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631: \u062a\u0635\u0627\u0639\u062f \u0627\u0644\u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0641\u064a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0628\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631 \u064a\u0632\u064a\u062f \u062a\u0643\u0627\u0644\u064a\u0641 \u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u062a\u0648\u062c\u064a\u0647 \u0648\u064a\u0624\u062e\u0631 \u0627\u0644\u0634\u062d\u0646\u0627\u062a \u0648\u064a\u0631\u0641\u0639 \u0623\u0642\u0633\u0627\u0637 \u0627\u0644\u062a\u0623\u0645\u064a\u0646 \u0627\u0644\u0628\u062d\u0631\u064a \u0648\u064a\u062e\u0644\u0642 \u0636\u063a\u0648\u0637 \u062a\u0636\u062e\u0645\u064a\u0629 \u0648\u062a\u062c\u0627\u0631\u064a\u0629 \u0645\u0646 \u0627\u0644\u062f\u0631\u062c\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 \u0639\u0628\u0631 \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c."
+      },
+      "why_it_matters": {
+        "en": "This scenario generates 3 macro pressure signals (Trade Risk, Shipping Pressure, Inflation Pressure), which propagate into 4 GDP components (Net Exports, Government Spending, Household Consumption, Business Investment), affecting 0 GCC countries at elevated risk or higher. The strongest sector transmission is into AVIATION, LOGISTICS, PORTS_MARITIME.",
+        "ar": "\u064a\u0648\u0644\u062f \u0647\u0630\u0627 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648 3 \u0625\u0634\u0627\u0631\u0627\u062a \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0643\u0628\u0631\u0649 \u062a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 4 \u0645\u0643\u0648\u0646\u0627\u062a \u0645\u0646 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u060c \u0645\u0624\u062b\u0631\u0629 \u0639\u0644\u0649 0 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0628\u0645\u0633\u062a\u0648\u0649 \u0645\u062e\u0627\u0637\u0631 \u0645\u0631\u062a\u0641\u0639 \u0623\u0648 \u0623\u0639\u0644\u0649."
+      },
+      "who_is_affected": [
+        "Finance Ministry",
+        "SWFs",
+        "Central Bank",
+        "Budget",
+        "C-Suite"
+      ],
+      "gdp_components_moved": [
+        "NET_EXPORTS",
+        "GOVERNMENT_SPENDING",
+        "HOUSEHOLD_CONSUMPTION",
+        "BUSINESS_INVESTMENT"
+      ],
+      "sectors_under_pressure": [
+        "AVIATION",
+        "LOGISTICS",
+        "PORTS_MARITIME",
+        "INSURANCE"
+      ],
+      "why_this_recommendation": {
+        "en": "Decision pressure score is 55/100 with immediate urgency. Primary drivers: Oil revenue sensitivity, Fiscal buffer strain, Spending reallocation. This action addresses the strongest transmission channels before they compound into broader economic stress.",
+        "ar": "\u062f\u0631\u062c\u0629 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631 55/100 \u0645\u0639 \u0625\u0644\u062d\u0627\u062d immediate. \u0627\u0644\u0645\u062d\u0631\u0643\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629: Oil revenue sensitivity, Fiscal buffer strain, Spending reallocation. \u064a\u0639\u0627\u0644\u062c \u0647\u0630\u0627 \u0627\u0644\u0625\u062c\u0631\u0627\u0621 \u0623\u0642\u0648\u0649 \u0642\u0646\u0648\u0627\u062a \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0642\u0628\u0644 \u0623\u0646 \u062a\u062a\u062d\u0648\u0644 \u0625\u0644\u0649 \u0636\u063a\u0637 \u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0623\u0648\u0633\u0639."
+      },
+      "likely_next_developments": [
+        {
+          "en": "Aviation sector (exposure 44) is likely to see operational adjustments, pricing reviews, and risk posture changes within the near term.",
+          "ar": "\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0623\u0646 \u064a\u0634\u0647\u062f \u0642\u0637\u0627\u0639 AVIATION (\u0627\u0644\u062a\u0639\u0631\u0636 44) \u062a\u0639\u062f\u064a\u0644\u0627\u062a \u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0648\u0645\u0631\u0627\u062c\u0639\u0627\u062a \u062a\u0633\u0639\u064a\u0631 \u0648\u062a\u063a\u064a\u064a\u0631\u0627\u062a \u0641\u064a \u0648\u0636\u0639 \u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u062f\u0649 \u0627\u0644\u0642\u0631\u064a\u0628."
+        },
+        {
+          "en": "With 4+ GCC countries affected, cross-border coordination and policy alignment pressures are expected to increase.",
+          "ar": "\u0645\u0639 \u062a\u0623\u062b\u0631 4 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629 \u0623\u0648 \u0623\u0643\u062b\u0631\u060c \u0645\u0646 \u0627\u0644\u0645\u062a\u0648\u0642\u0639 \u0632\u064a\u0627\u062f\u0629 \u0636\u063a\u0648\u0637 \u0627\u0644\u062a\u0646\u0633\u064a\u0642 \u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648\u062f \u0648\u0645\u0648\u0627\u0621\u0645\u0629 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a."
+        },
+        {
+          "en": "Continue monitoring scenario evolution. Intelligence refresh recommended within 48 hours or upon material development.",
+          "ar": "\u0627\u0644\u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0641\u064a \u0645\u0631\u0627\u0642\u0628\u0629 \u062a\u0637\u0648\u0631 \u0627\u0644\u0633\u064a\u0646\u0627\u0631\u064a\u0648. \u064a\u0648\u0635\u0649 \u0628\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629 \u062e\u0644\u0627\u0644 48 \u0633\u0627\u0639\u0629 \u0623\u0648 \u0639\u0646\u062f \u0623\u064a \u062a\u0637\u0648\u0631 \u062c\u0648\u0647\u0631\u064a."
+        }
+      ],
+      "confidence": 0.92
+    }
+  }
+]

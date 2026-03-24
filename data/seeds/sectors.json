@@ -1,0 +1,32 @@
+{
+  "model": "4-tier sovereign-grade sector intelligence",
+  "version": "3.0",
+  "tiers": {
+    "1": {"name": "Critical Sovereign Systems", "nameAr": "الأنظمة السيادية الحرجة", "multiplier": 1.40},
+    "2": {"name": "Financial & Economic Systems", "nameAr": "الأنظمة المالية والاقتصادية", "multiplier": 1.15},
+    "3": {"name": "Market & Growth Systems", "nameAr": "أنظمة السوق والنمو", "multiplier": 0.90},
+    "4": {"name": "Future & Strategic Systems", "nameAr": "الأنظمة المستقبلية والاستراتيجية", "multiplier": 0.70}
+  },
+  "sectors": [
+    {"code": "AVIATION", "name": "Aviation", "nameAr": "الطيران", "tier": 1, "criticality": 95, "propagation": "immediate", "gdpLinkage": ["NET_EXPORTS", "HOUSEHOLD_CONSUMPTION", "BUSINESS_INVESTMENT"]},
+    {"code": "OIL_GAS", "name": "Oil & Gas / Energy", "nameAr": "النفط والغاز / الطاقة", "tier": 1, "criticality": 98, "propagation": "immediate", "gdpLinkage": ["NET_EXPORTS", "GOVERNMENT_SPENDING"]},
+    {"code": "BANKING", "name": "Banking System", "nameAr": "النظام المصرفي", "tier": 1, "criticality": 96, "propagation": "immediate", "gdpLinkage": ["BUSINESS_INVESTMENT", "HOUSEHOLD_CONSUMPTION"]},
+    {"code": "ENERGY_INFRASTRUCTURE", "name": "Energy Infrastructure", "nameAr": "البنية التحتية للطاقة", "tier": 1, "criticality": 90, "propagation": "fast", "gdpLinkage": ["GOVERNMENT_SPENDING", "BUSINESS_INVESTMENT"]},
+    {"code": "PORTS_MARITIME", "name": "Ports & Maritime", "nameAr": "الموانئ والنقل البحري", "tier": 1, "criticality": 92, "propagation": "immediate", "gdpLinkage": ["NET_EXPORTS", "BUSINESS_INVESTMENT"]},
+    {"code": "LOGISTICS", "name": "Logistics & Trade Corridors", "nameAr": "الخدمات اللوجستية وممرات التجارة", "tier": 1, "criticality": 91, "propagation": "immediate", "gdpLinkage": ["NET_EXPORTS", "BUSINESS_INVESTMENT"]},
+    {"code": "INSURANCE", "name": "Insurance", "nameAr": "التأمين", "tier": 2, "criticality": 78, "propagation": "fast", "gdpLinkage": ["BUSINESS_INVESTMENT", "NET_EXPORTS"]},
+    {"code": "FINTECH", "name": "Fintech", "nameAr": "التقنية المالية", "tier": 2, "criticality": 72, "propagation": "fast", "gdpLinkage": ["BUSINESS_INVESTMENT", "HOUSEHOLD_CONSUMPTION"]},
+    {"code": "CAPITAL_MARKETS", "name": "Capital Markets", "nameAr": "أسواق المال", "tier": 2, "criticality": 80, "propagation": "immediate", "gdpLinkage": ["BUSINESS_INVESTMENT", "HOUSEHOLD_CONSUMPTION"]},
+    {"code": "SOVEREIGN_WEALTH", "name": "Sovereign Wealth Funds", "nameAr": "صناديق الثروة السيادية", "tier": 2, "criticality": 85, "propagation": "medium", "gdpLinkage": ["GOVERNMENT_SPENDING", "BUSINESS_INVESTMENT"]},
+    {"code": "GOVERNMENT_FINANCE", "name": "Government Finance", "nameAr": "المالية الحكومية", "tier": 2, "criticality": 88, "propagation": "fast", "gdpLinkage": ["GOVERNMENT_SPENDING"]},
+    {"code": "ECOMMERCE", "name": "E-Commerce", "nameAr": "التجارة الإلكترونية", "tier": 3, "criticality": 55, "propagation": "medium", "gdpLinkage": ["HOUSEHOLD_CONSUMPTION", "NET_EXPORTS"]},
+    {"code": "CONSTRUCTION", "name": "Construction", "nameAr": "البناء والتشييد", "tier": 3, "criticality": 65, "propagation": "medium", "gdpLinkage": ["GOVERNMENT_SPENDING", "BUSINESS_INVESTMENT"]},
+    {"code": "MANUFACTURING", "name": "Manufacturing", "nameAr": "التصنيع", "tier": 3, "criticality": 60, "propagation": "medium", "gdpLinkage": ["BUSINESS_INVESTMENT", "NET_EXPORTS"]},
+    {"code": "TOURISM", "name": "Tourism", "nameAr": "السياحة", "tier": 3, "criticality": 58, "propagation": "fast", "gdpLinkage": ["HOUSEHOLD_CONSUMPTION", "NET_EXPORTS"]},
+    {"code": "RETAIL", "name": "Retail", "nameAr": "التجزئة", "tier": 3, "criticality": 50, "propagation": "medium", "gdpLinkage": ["HOUSEHOLD_CONSUMPTION"]},
+    {"code": "AI_TECHNOLOGY", "name": "AI / Technology", "nameAr": "الذكاء الاصطناعي / التكنولوجيا", "tier": 4, "criticality": 45, "propagation": "slow", "gdpLinkage": ["BUSINESS_INVESTMENT", "HOUSEHOLD_CONSUMPTION"]},
+    {"code": "STARTUP_ECOSYSTEM", "name": "Startup Ecosystem", "nameAr": "منظومة الشركات الناشئة", "tier": 4, "criticality": 40, "propagation": "slow", "gdpLinkage": ["BUSINESS_INVESTMENT"]},
+    {"code": "CYBERSECURITY", "name": "Cybersecurity", "nameAr": "الأمن السيبراني", "tier": 4, "criticality": 48, "propagation": "slow", "gdpLinkage": ["BUSINESS_INVESTMENT", "GOVERNMENT_SPENDING"]},
+    {"code": "SUSTAINABILITY", "name": "Sustainability / Energy Transition", "nameAr": "الاستدامة / تحول الطاقة", "tier": 4, "criticality": 42, "propagation": "slow", "gdpLinkage": ["GOVERNMENT_SPENDING", "BUSINESS_INVESTMENT"]}
+  ]
+}

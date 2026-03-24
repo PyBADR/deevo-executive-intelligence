@@ -1,0 +1,322 @@
+{
+  "scenario_id": "scenario_001",
+  "overall_score": 59.1,
+  "sub_scores": [
+    {
+      "id": "score_macro",
+      "category": "macro",
+      "label": {
+        "en": "Macro Stress Score",
+        "ar": "\u0646\u062a\u064a\u062c\u0629 \u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0627\u0644\u0643\u0644\u064a"
+      },
+      "score": 43.0,
+      "components": [
+        {
+          "name": "trade_risk",
+          "raw_value": 76.0,
+          "weight": 0.125,
+          "weighted_value": 9.5,
+          "source_layer": "scenario_engine"
+        },
+        {
+          "name": "shipping_pressure",
+          "raw_value": 68.0,
+          "weight": 0.125,
+          "weighted_value": 8.5,
+          "source_layer": "scenario_engine"
+        },
+        {
+          "name": "inflation_pressure",
+          "raw_value": 48.0,
+          "weight": 0.125,
+          "weighted_value": 6.0,
+          "source_layer": "scenario_engine"
+        },
+        {
+          "name": "energy_exposure",
+          "raw_value": 40.0,
+          "weight": 0.125,
+          "weighted_value": 5.0,
+          "source_layer": "scenario_engine"
+        },
+        {
+          "name": "confidence_pressure",
+          "raw_value": 36.0,
+          "weight": 0.125,
+          "weighted_value": 4.5,
+          "source_layer": "scenario_engine"
+        },
+        {
+          "name": "demand_pressure",
+          "raw_value": 32.0,
+          "weight": 0.125,
+          "weighted_value": 4.0,
+          "source_layer": "scenario_engine"
+        },
+        {
+          "name": "financing_sensitivity",
+          "raw_value": 28.000000000000004,
+          "weight": 0.125,
+          "weighted_value": 3.5000000000000004,
+          "source_layer": "scenario_engine"
+        },
+        {
+          "name": "regulatory_pressure",
+          "raw_value": 16.0,
+          "weight": 0.125,
+          "weighted_value": 2.0,
+          "source_layer": "scenario_engine"
+        }
+      ],
+      "confidence": 0.744,
+      "explanation": {
+        "en": "Overall macro stress at 43/100 across 8 signals.",
+        "ar": "\u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0627\u0644\u0643\u0644\u064a \u0639\u0646\u062f 43/100 \u0639\u0628\u0631 8 \u0625\u0634\u0627\u0631\u0629."
+      }
+    },
+    {
+      "id": "score_gdp",
+      "category": "gdp",
+      "label": {
+        "en": "GDP Impact Score",
+        "ar": "\u0646\u062a\u064a\u062c\u0629 \u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a"
+      },
+      "score": 100.0,
+      "components": [
+        {
+          "name": "SA",
+          "raw_value": 89.2,
+          "weight": 0.16666666666666666,
+          "weighted_value": 14.866666666666667,
+          "source_layer": "gdp_engine"
+        },
+        {
+          "name": "AE",
+          "raw_value": 86.9,
+          "weight": 0.16666666666666666,
+          "weighted_value": 14.483333333333334,
+          "source_layer": "gdp_engine"
+        },
+        {
+          "name": "KW",
+          "raw_value": 82.0,
+          "weight": 0.16666666666666666,
+          "weighted_value": 13.666666666666666,
+          "source_layer": "gdp_engine"
+        },
+        {
+          "name": "QA",
+          "raw_value": 84.1,
+          "weight": 0.16666666666666666,
+          "weighted_value": 14.016666666666666,
+          "source_layer": "gdp_engine"
+        },
+        {
+          "name": "BH",
+          "raw_value": 89.1,
+          "weight": 0.16666666666666666,
+          "weighted_value": 14.85,
+          "source_layer": "gdp_engine"
+        },
+        {
+          "name": "OM",
+          "raw_value": 85.0,
+          "weight": 0.16666666666666666,
+          "weighted_value": 14.166666666666666,
+          "source_layer": "gdp_engine"
+        }
+      ],
+      "confidence": 0.78,
+      "explanation": {
+        "en": "GDP pressure across 6 countries, avg impact 86.0.",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0646\u0627\u062a\u062c \u0627\u0644\u0645\u062d\u0644\u064a \u0639\u0628\u0631 6 \u062f\u0648\u0644."
+      }
+    },
+    {
+      "id": "score_country",
+      "category": "country",
+      "label": {
+        "en": "Country Sensitivity Score",
+        "ar": "\u0646\u062a\u064a\u062c\u0629 \u062d\u0633\u0627\u0633\u064a\u0629 \u0627\u0644\u062f\u0648\u0644"
+      },
+      "score": 47.3,
+      "components": [
+        {
+          "name": "BH",
+          "raw_value": 50.0,
+          "weight": 0.16666666666666666,
+          "weighted_value": 8.333333333333334,
+          "source_layer": "country_engine"
+        },
+        {
+          "name": "OM",
+          "raw_value": 48.1,
+          "weight": 0.16666666666666666,
+          "weighted_value": 8.016666666666667,
+          "source_layer": "country_engine"
+        },
+        {
+          "name": "AE",
+          "raw_value": 47.0,
+          "weight": 0.16666666666666666,
+          "weighted_value": 7.833333333333333,
+          "source_layer": "country_engine"
+        },
+        {
+          "name": "QA",
+          "raw_value": 46.8,
+          "weight": 0.16666666666666666,
+          "weighted_value": 7.8,
+          "source_layer": "country_engine"
+        },
+        {
+          "name": "SA",
+          "raw_value": 46.0,
+          "weight": 0.16666666666666666,
+          "weighted_value": 7.666666666666667,
+          "source_layer": "country_engine"
+        },
+        {
+          "name": "KW",
+          "raw_value": 45.9,
+          "weight": 0.16666666666666666,
+          "weighted_value": 7.6499999999999995,
+          "source_layer": "country_engine"
+        }
+      ],
+      "confidence": 0.908,
+      "explanation": {
+        "en": "Average country sensitivity: 47/100 across 6 GCC countries.",
+        "ar": "\u0645\u062a\u0648\u0633\u0637 \u062d\u0633\u0627\u0633\u064a\u0629 \u0627\u0644\u062f\u0648\u0644: 47/100 \u0639\u0628\u0631 6 \u062f\u0648\u0644 \u062e\u0644\u064a\u062c\u064a\u0629."
+      }
+    },
+    {
+      "id": "score_sector",
+      "category": "sector",
+      "label": {
+        "en": "Sector Exposure Score",
+        "ar": "\u0646\u062a\u064a\u062c\u0629 \u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639\u0627\u062a"
+      },
+      "score": 51.4,
+      "components": [
+        {
+          "name": "AVIATION",
+          "raw_value": 72.7,
+          "weight": 0.14285714285714285,
+          "weighted_value": 10.385714285714286,
+          "source_layer": "sector_engine"
+        },
+        {
+          "name": "LOGISTICS",
+          "raw_value": 61.0,
+          "weight": 0.14285714285714285,
+          "weighted_value": 8.714285714285714,
+          "source_layer": "sector_engine"
+        },
+        {
+          "name": "PORTS_MARITIME",
+          "raw_value": 60.1,
+          "weight": 0.14285714285714285,
+          "weighted_value": 8.585714285714285,
+          "source_layer": "sector_engine"
+        },
+        {
+          "name": "OIL_GAS",
+          "raw_value": 56.8,
+          "weight": 0.14285714285714285,
+          "weighted_value": 8.114285714285714,
+          "source_layer": "sector_engine"
+        },
+        {
+          "name": "BANKING",
+          "raw_value": 47.9,
+          "weight": 0.14285714285714285,
+          "weighted_value": 6.8428571428571425,
+          "source_layer": "sector_engine"
+        },
+        {
+          "name": "INSURANCE",
+          "raw_value": 41.6,
+          "weight": 0.14285714285714285,
+          "weighted_value": 5.942857142857143,
+          "source_layer": "sector_engine"
+        },
+        {
+          "name": "ECOMMERCE",
+          "raw_value": 20.0,
+          "weight": 0.14285714285714285,
+          "weighted_value": 2.857142857142857,
+          "source_layer": "sector_engine"
+        }
+      ],
+      "confidence": 0.8,
+      "explanation": {
+        "en": "Weighted sector exposure: 51/100 across 7 sectors (tier-adjusted).",
+        "ar": "\u0627\u0644\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639\u064a \u0627\u0644\u0645\u0648\u0632\u0648\u0646: 51/100 \u0639\u0628\u0631 7 \u0642\u0637\u0627\u0639."
+      }
+    },
+    {
+      "id": "score_decision",
+      "category": "decision",
+      "label": {
+        "en": "Decision Pressure Score",
+        "ar": "\u0646\u062a\u064a\u062c\u0629 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631"
+      },
+      "score": 54.7,
+      "components": [
+        {
+          "name": "3c46c037",
+          "raw_value": 54.7,
+          "weight": 0.16666666666666666,
+          "weighted_value": 9.116666666666667,
+          "source_layer": "decision_engine"
+        },
+        {
+          "name": "9caee39d",
+          "raw_value": 54.7,
+          "weight": 0.16666666666666666,
+          "weighted_value": 9.116666666666667,
+          "source_layer": "decision_engine"
+        },
+        {
+          "name": "f94ba5a4",
+          "raw_value": 54.7,
+          "weight": 0.16666666666666666,
+          "weighted_value": 9.116666666666667,
+          "source_layer": "decision_engine"
+        },
+        {
+          "name": "222e2180",
+          "raw_value": 54.7,
+          "weight": 0.16666666666666666,
+          "weighted_value": 9.116666666666667,
+          "source_layer": "decision_engine"
+        },
+        {
+          "name": "e27d61ab",
+          "raw_value": 54.7,
+          "weight": 0.16666666666666666,
+          "weighted_value": 9.116666666666667,
+          "source_layer": "decision_engine"
+        },
+        {
+          "name": "ee7cf671",
+          "raw_value": 54.7,
+          "weight": 0.16666666666666666,
+          "weighted_value": 9.116666666666667,
+          "source_layer": "decision_engine"
+        }
+      ],
+      "confidence": 0.92,
+      "explanation": {
+        "en": "Average decision pressure: 55/100 from 6 active decisions.",
+        "ar": "\u0645\u062a\u0648\u0633\u0637 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631: 55/100 \u0645\u0646 6 \u0642\u0631\u0627\u0631 \u0646\u0634\u0637."
+      }
+    }
+  ],
+  "explanation": {
+    "en": "Composite intelligence score: 59/100. Macro=43, GDP=100, Country=47, Sector=51, Decision=55.",
+    "ar": "\u0627\u0644\u0646\u062a\u064a\u062c\u0629 \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629 \u0627\u0644\u0645\u0631\u0643\u0628\u0629: 59/100."
+  },
+  "confidence": 0.83
+}

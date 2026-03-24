@@ -1,0 +1,526 @@
+{
+  "scenario_id": "scenario_001",
+  "executive_kpis": [
+    {
+      "id": "kpi_macro_stress",
+      "name": {
+        "en": "Macro Stress Index",
+        "ar": "\u0645\u0624\u0634\u0631 \u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0627\u0644\u0643\u0644\u064a"
+      },
+      "value": 43.0,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 3.4,
+        "previous_value": 0.0
+      },
+      "category": "economic",
+      "explanation": {
+        "en": "Overall macro stress at 43/100 from 8 signals.",
+        "ar": "\u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0627\u0644\u0643\u0644\u064a \u0639\u0646\u062f 43/100."
+      }
+    },
+    {
+      "id": "kpi_sector_risk",
+      "name": {
+        "en": "Sector Risk Index",
+        "ar": "\u0645\u0624\u0634\u0631 \u0645\u062e\u0627\u0637\u0631 \u0627\u0644\u0642\u0637\u0627\u0639\u0627\u062a"
+      },
+      "value": 59.7,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 3.6,
+        "previous_value": 0.0
+      },
+      "category": "risk",
+      "explanation": {
+        "en": "Tier 1 sovereign sector average exposure: 60/100 across 5 critical sectors.",
+        "ar": "\u0645\u062a\u0648\u0633\u0637 \u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639\u0627\u062a \u0627\u0644\u0633\u064a\u0627\u062f\u064a\u0629 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 \u0627\u0644\u0623\u0648\u0644: 60/100."
+      }
+    },
+    {
+      "id": "kpi_infra_stability",
+      "name": {
+        "en": "Critical Infrastructure Stability",
+        "ar": "\u0627\u0633\u062a\u0642\u0631\u0627\u0631 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0627\u0644\u062d\u0631\u062c\u0629"
+      },
+      "value": 40.3,
+      "unit": "index",
+      "trend": {
+        "direction": "down",
+        "change_pct": -3.0,
+        "previous_value": 0.0
+      },
+      "category": "infrastructure",
+      "explanation": {
+        "en": "Infrastructure stability at 40/100. Inverse of Tier 1 sector pressure.",
+        "ar": "\u0627\u0633\u062a\u0642\u0631\u0627\u0631 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0639\u0646\u062f 40/100."
+      }
+    },
+    {
+      "id": "kpi_financial_pressure",
+      "name": {
+        "en": "Financial System Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u0645\u0627\u0644\u064a"
+      },
+      "value": 41.6,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.9,
+        "previous_value": 0.0
+      },
+      "category": "financial",
+      "explanation": {
+        "en": "Tier 2 financial sector average exposure: 42/100.",
+        "ar": "\u0645\u062a\u0648\u0633\u0637 \u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639\u0627\u062a \u0627\u0644\u0645\u0627\u0644\u064a\u0629: 42/100."
+      }
+    },
+    {
+      "id": "kpi_market_activity",
+      "name": {
+        "en": "Market Activity Score",
+        "ar": "\u0646\u062a\u064a\u062c\u0629 \u0646\u0634\u0627\u0637 \u0627\u0644\u0633\u0648\u0642"
+      },
+      "value": 80.0,
+      "unit": "index",
+      "trend": {
+        "direction": "stable",
+        "change_pct": -0.8,
+        "previous_value": 0.0
+      },
+      "category": "economic",
+      "explanation": {
+        "en": "Market activity score at 80/100. Reflects Tier 3 sector resilience.",
+        "ar": "\u0646\u0634\u0627\u0637 \u0627\u0644\u0633\u0648\u0642 \u0639\u0646\u062f 80/100."
+      }
+    },
+    {
+      "id": "kpi_strategic_confidence",
+      "name": {
+        "en": "Strategic Sector Confidence",
+        "ar": "\u062b\u0642\u0629 \u0627\u0644\u0642\u0637\u0627\u0639\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0629"
+      },
+      "value": 100.0,
+      "unit": "index",
+      "trend": {
+        "direction": "stable",
+        "change_pct": -0.0,
+        "previous_value": 0.0
+      },
+      "category": "opportunity",
+      "explanation": {
+        "en": "Strategic sector confidence at 100/100. Tier 4 future sectors.",
+        "ar": "\u062b\u0642\u0629 \u0627\u0644\u0642\u0637\u0627\u0639\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u0631\u0627\u062a\u064a\u062c\u064a\u0629 \u0639\u0646\u062f 100/100."
+      }
+    },
+    {
+      "id": "kpi_decision_pressure",
+      "name": {
+        "en": "Decision Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631"
+      },
+      "value": 54.7,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 5.2,
+        "previous_value": 0.0
+      },
+      "category": "risk",
+      "explanation": {
+        "en": "Average decision pressure: 55/100 from 6 active decisions.",
+        "ar": "\u0645\u062a\u0648\u0633\u0637 \u0636\u063a\u0637 \u0627\u0644\u0642\u0631\u0627\u0631: 55/100."
+      }
+    },
+    {
+      "id": "kpi_risk_severity",
+      "name": {
+        "en": "Aggregate Risk Severity",
+        "ar": "\u0634\u062f\u0629 \u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u0629"
+      },
+      "value": 51.5,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 3.1,
+        "previous_value": 0.0
+      },
+      "category": "risk",
+      "explanation": {
+        "en": "Aggregate risk: 52/100. 1 critical, 1 high.",
+        "ar": "\u0627\u0644\u0645\u062e\u0627\u0637\u0631 \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a\u0629: 52/100."
+      }
+    }
+  ],
+  "country_kpis": [
+    {
+      "country_code": "BH",
+      "kpi_id": "kpi_BH_macro",
+      "name": {
+        "en": "BH Macro Sensitivity",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 BH"
+      },
+      "value": 50.0,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.5,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "BH macro sensitivity: 50, risk: moderate.",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 BH: 50."
+      }
+    },
+    {
+      "country_code": "BH",
+      "kpi_id": "kpi_BH_private",
+      "name": {
+        "en": "BH Private Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - BH"
+      },
+      "value": 33.2,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 1.3,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "BH private sector operating pressure: 33/100.",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 \u0641\u064a BH: 33/100."
+      }
+    },
+    {
+      "country_code": "OM",
+      "kpi_id": "kpi_OM_macro",
+      "name": {
+        "en": "OM Macro Sensitivity",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 OM"
+      },
+      "value": 48.1,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.4,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "OM macro sensitivity: 48, risk: moderate.",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 OM: 48."
+      }
+    },
+    {
+      "country_code": "OM",
+      "kpi_id": "kpi_OM_private",
+      "name": {
+        "en": "OM Private Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - OM"
+      },
+      "value": 31.6,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 1.3,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "OM private sector operating pressure: 32/100.",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 \u0641\u064a OM: 32/100."
+      }
+    },
+    {
+      "country_code": "AE",
+      "kpi_id": "kpi_AE_macro",
+      "name": {
+        "en": "AE Macro Sensitivity",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 AE"
+      },
+      "value": 47.0,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.4,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "AE macro sensitivity: 47, risk: moderate.",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 AE: 47."
+      }
+    },
+    {
+      "country_code": "AE",
+      "kpi_id": "kpi_AE_private",
+      "name": {
+        "en": "AE Private Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - AE"
+      },
+      "value": 34.4,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 1.4,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "AE private sector operating pressure: 34/100.",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 \u0641\u064a AE: 34/100."
+      }
+    },
+    {
+      "country_code": "QA",
+      "kpi_id": "kpi_QA_macro",
+      "name": {
+        "en": "QA Macro Sensitivity",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 QA"
+      },
+      "value": 46.8,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.3,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "QA macro sensitivity: 47, risk: moderate.",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 QA: 47."
+      }
+    },
+    {
+      "country_code": "QA",
+      "kpi_id": "kpi_QA_private",
+      "name": {
+        "en": "QA Private Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - QA"
+      },
+      "value": 32.8,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 1.3,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "QA private sector operating pressure: 33/100.",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 \u0641\u064a QA: 33/100."
+      }
+    },
+    {
+      "country_code": "SA",
+      "kpi_id": "kpi_SA_macro",
+      "name": {
+        "en": "SA Macro Sensitivity",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 SA"
+      },
+      "value": 46.0,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.3,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "SA macro sensitivity: 46, risk: moderate.",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 SA: 46."
+      }
+    },
+    {
+      "country_code": "SA",
+      "kpi_id": "kpi_SA_private",
+      "name": {
+        "en": "SA Private Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - SA"
+      },
+      "value": 31.6,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 1.3,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "SA private sector operating pressure: 32/100.",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 \u0641\u064a SA: 32/100."
+      }
+    },
+    {
+      "country_code": "KW",
+      "kpi_id": "kpi_KW_macro",
+      "name": {
+        "en": "KW Macro Sensitivity",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 KW"
+      },
+      "value": 45.9,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.3,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "KW macro sensitivity: 46, risk: moderate.",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 KW: 46."
+      }
+    },
+    {
+      "country_code": "KW",
+      "kpi_id": "kpi_KW_private",
+      "name": {
+        "en": "KW Private Pressure",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - KW"
+      },
+      "value": 31.2,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 1.2,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "KW private sector operating pressure: 31/100.",
+        "ar": "\u0636\u063a\u0637 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 \u0641\u064a KW: 31/100."
+      }
+    }
+  ],
+  "sector_kpis": [
+    {
+      "sector_code": "AVIATION",
+      "kpi_id": "kpi_AVIATION_exposure",
+      "name": {
+        "en": "Aviation Exposure",
+        "ar": "\u062a\u0639\u0631\u0636 AVIATION"
+      },
+      "value": 72.7,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 3.6,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "Tier 1 sector exposure: 73/100.",
+        "ar": "\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 1: 73/100."
+      }
+    },
+    {
+      "sector_code": "LOGISTICS",
+      "kpi_id": "kpi_LOGISTICS_exposure",
+      "name": {
+        "en": "Logistics Exposure",
+        "ar": "\u062a\u0639\u0631\u0636 LOGISTICS"
+      },
+      "value": 61.0,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 3.1,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "Tier 1 sector exposure: 61/100.",
+        "ar": "\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 1: 61/100."
+      }
+    },
+    {
+      "sector_code": "PORTS_MARITIME",
+      "kpi_id": "kpi_PORTS_MARITIME_exposure",
+      "name": {
+        "en": "Ports Maritime Exposure",
+        "ar": "\u062a\u0639\u0631\u0636 PORTS_MARITIME"
+      },
+      "value": 60.1,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 3.0,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "Tier 1 sector exposure: 60/100.",
+        "ar": "\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 1: 60/100."
+      }
+    },
+    {
+      "sector_code": "OIL_GAS",
+      "kpi_id": "kpi_OIL_GAS_exposure",
+      "name": {
+        "en": "Oil Gas Exposure",
+        "ar": "\u062a\u0639\u0631\u0636 OIL_GAS"
+      },
+      "value": 56.8,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.8,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "Tier 1 sector exposure: 57/100.",
+        "ar": "\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 1: 57/100."
+      }
+    },
+    {
+      "sector_code": "BANKING",
+      "kpi_id": "kpi_BANKING_exposure",
+      "name": {
+        "en": "Banking Exposure",
+        "ar": "\u062a\u0639\u0631\u0636 BANKING"
+      },
+      "value": 47.9,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.4,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "Tier 1 sector exposure: 48/100.",
+        "ar": "\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 1: 48/100."
+      }
+    },
+    {
+      "sector_code": "INSURANCE",
+      "kpi_id": "kpi_INSURANCE_exposure",
+      "name": {
+        "en": "Insurance Exposure",
+        "ar": "\u062a\u0639\u0631\u0636 INSURANCE"
+      },
+      "value": 41.6,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 2.1,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "Tier 2 sector exposure: 42/100.",
+        "ar": "\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 2: 42/100."
+      }
+    },
+    {
+      "sector_code": "ECOMMERCE",
+      "kpi_id": "kpi_ECOMMERCE_exposure",
+      "name": {
+        "en": "Ecommerce Exposure",
+        "ar": "\u062a\u0639\u0631\u0636 ECOMMERCE"
+      },
+      "value": 20.0,
+      "unit": "index",
+      "trend": {
+        "direction": "up",
+        "change_pct": 1.0,
+        "previous_value": 0.0
+      },
+      "explanation": {
+        "en": "Tier 3 sector exposure: 20/100.",
+        "ar": "\u062a\u0639\u0631\u0636 \u0627\u0644\u0642\u0637\u0627\u0639 \u0645\u0646 \u0627\u0644\u0645\u0633\u062a\u0648\u0649 3: 20/100."
+      }
+    }
+  ],
+  "headline": {
+    "en": "Intelligence dashboard: 8 executive KPIs, 12 country KPIs, 7 sector KPIs.",
+    "ar": "\u0644\u0648\u062d\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a\u064a\u0629: 8 \u0645\u0624\u0634\u0631\u0627\u062a \u062a\u0646\u0641\u064a\u0630\u064a\u0629\u060c 12 \u0645\u0624\u0634\u0631\u0627\u062a \u062f\u0648\u0644\u060c 7 \u0645\u0624\u0634\u0631\u0627\u062a \u0642\u0637\u0627\u0639\u064a\u0629."
+  }
+}

@@ -1,0 +1,3176 @@
+{
+  "nodes": [
+    {
+      "id": "scenario_scenario_001",
+      "type": "scenario",
+      "label": {
+        "en": "Red Sea Shipping Disruption Escalation",
+        "ar": "\u062a\u0635\u0627\u0639\u062f \u0627\u0636\u0637\u0631\u0627\u0628\u0627\u062a \u0627\u0644\u0634\u062d\u0646 \u0641\u064a \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631"
+      },
+      "metadata": {
+        "severity": "high",
+        "confidence": 0.82
+      }
+    },
+    {
+      "id": "signal_trade_risk",
+      "type": "macro_signal",
+      "label": {
+        "en": "Trade Risk",
+        "ar": "\u0645\u0648\u062b\u0648\u0642\u064a\u0629 \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062a \u0627\u0644\u062a\u062c\u0627\u0631\u064a\u0629 \u0648\u0627\u0633\u062a\u0642\u0631\u0627\u0631 \u0627\u0644\u062a\u062f\u0641"
+      },
+      "metadata": {
+        "magnitude": -0.76
+      }
+    },
+    {
+      "id": "signal_shipping_pressure",
+      "type": "macro_signal",
+      "label": {
+        "en": "Shipping Pressure",
+        "ar": "\u0636\u063a\u0648\u0637 \u0627\u0644\u0644\u0648\u062c\u0633\u062a\u064a\u0627\u062a \u0627\u0644\u0628\u062d\u0631\u064a\u0629 \u0648\u0627\u0644\u0627\u0639\u062a\u0645\u0627\u062f \u0639\u0644\u0649 \u0627\u0644"
+      },
+      "metadata": {
+        "magnitude": -0.68
+      }
+    },
+    {
+      "id": "signal_inflation_pressure",
+      "type": "macro_signal",
+      "label": {
+        "en": "Inflation Pressure",
+        "ar": "\u0636\u063a\u0648\u0637 \u0627\u0644\u0623\u0633\u0639\u0627\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u0633\u062a\u0647\u0644\u0643 \u0648\u0627\u0644\u0645\u0646\u062a\u062c \u0645\u0646 \u0627\u0644\u062a"
+      },
+      "metadata": {
+        "magnitude": -0.48
+      }
+    },
+    {
+      "id": "signal_energy_exposure",
+      "type": "macro_signal",
+      "label": {
+        "en": "Energy Exposure",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0633\u0648\u0642 \u0627\u0644\u0637\u0627\u0642\u0629 \u0648\u0627\u0644\u062a\u0639\u0631\u0636 \u0644\u0625\u064a\u0631\u0627\u062f\u0627\u062a \u0627\u0644\u0647\u064a\u062f"
+      },
+      "metadata": {
+        "magnitude": -0.4
+      }
+    },
+    {
+      "id": "signal_confidence_pressure",
+      "type": "macro_signal",
+      "label": {
+        "en": "Confidence Pressure",
+        "ar": "\u062a\u0631\u0627\u062c\u0639 \u0627\u0644\u062b\u0642\u0629 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0648\u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0642\u0628"
+      },
+      "metadata": {
+        "magnitude": -0.36
+      }
+    },
+    {
+      "id": "signal_demand_pressure",
+      "type": "macro_signal",
+      "label": {
+        "en": "Demand Pressure",
+        "ar": "\u0645\u0624\u0634\u0631\u0627\u062a \u0627\u0646\u0643\u0645\u0627\u0634 \u0627\u0644\u0637\u0644\u0628 \u0627\u0644\u0645\u062d\u0644\u064a \u0648\u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648"
+      },
+      "metadata": {
+        "magnitude": -0.32
+      }
+    },
+    {
+      "id": "signal_financing_sensitivity",
+      "type": "macro_signal",
+      "label": {
+        "en": "Financing Sensitivity",
+        "ar": "\u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u0649 \u0623\u0633\u0648\u0627\u0642 \u0631\u0623\u0633 \u0627\u0644\u0645\u0627\u0644 \u0648\u062a\u0648\u0627\u0641\u0631 \u0627\u0644\u0627\u0626\u062a\u0645"
+      },
+      "metadata": {
+        "magnitude": -0.28
+      }
+    },
+    {
+      "id": "signal_regulatory_pressure",
+      "type": "macro_signal",
+      "label": {
+        "en": "Regulatory Pressure",
+        "ar": "\u0627\u0644\u0639\u0628\u0621 \u0627\u0644\u062a\u0646\u0638\u064a\u0645\u064a \u0648\u0627\u0644\u062a\u0639\u062f\u064a\u0644\u0627\u062a \u0627\u0644\u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0627\u0644\u0646\u0627"
+      },
+      "metadata": {
+        "magnitude": -0.16
+      }
+    },
+    {
+      "id": "gdp_BUSINESS_INVESTMENT",
+      "type": "gdp_component",
+      "label": {
+        "en": "Business Investment",
+        "ar": "\u064a\u0648\u0627\u062c\u0647 \u0627\u0644\u0627\u0633\u062a\u062b\u0645\u0627\u0631 \u0627\u0644\u062e\u0627\u0635 \u0631\u064a\u0627\u062d\u0627\u064b \u0645"
+      },
+      "metadata": {
+        "impact_score": -1.0
+      }
+    },
+    {
+      "id": "gdp_NET_EXPORTS",
+      "type": "gdp_component",
+      "label": {
+        "en": "Net Exports",
+        "ar": "\u064a\u062a\u0623\u062b\u0631 \u0635\u0627\u0641\u064a \u0627\u0644\u0635\u0627\u062f\u0631\u0627\u062a \u0628\u0645\u0648\u062b\u0648\u0642\u064a\u0629 \u0627"
+      },
+      "metadata": {
+        "impact_score": -1.0
+      }
+    },
+    {
+      "id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "gdp_component",
+      "label": {
+        "en": "Household Consumption",
+        "ar": "\u064a\u062a\u0639\u0631\u0636 \u0627\u0644\u0627\u0633\u062a\u0647\u0644\u0627\u0643 \u0627\u0644\u0623\u0633\u0631\u064a \u0644\u0636\u063a\u0648\u0637 \u0645"
+      },
+      "metadata": {
+        "impact_score": -0.911
+      }
+    },
+    {
+      "id": "gdp_GOVERNMENT_SPENDING",
+      "type": "gdp_component",
+      "label": {
+        "en": "Government Spending",
+        "ar": "\u064a\u0639\u0643\u0633 \u0627\u0644\u0625\u0646\u0641\u0627\u0642 \u0627\u0644\u062d\u0643\u0648\u0645\u064a \u0627\u0644\u0642\u062f\u0631\u0629 \u0627\u0644"
+      },
+      "metadata": {
+        "impact_score": -0.693
+      }
+    },
+    {
+      "id": "country_BH",
+      "type": "country",
+      "label": {
+        "en": "BH",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0627\u0644\u0628\u062d\u0631\u064a\u0646 \u0627\u0644\u0627\u0642\u062a"
+      },
+      "metadata": {
+        "risk_level": "moderate",
+        "macro_sensitivity": 50.0
+      }
+    },
+    {
+      "id": "public_BH",
+      "type": "public_sector",
+      "label": {
+        "en": "BH Public Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645 - BH"
+      },
+      "metadata": {
+        "spending_pressure": 19.8
+      }
+    },
+    {
+      "id": "private_BH",
+      "type": "private_sector",
+      "label": {
+        "en": "BH Private Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - BH"
+      },
+      "metadata": {
+        "operating_pressure": 33.2
+      }
+    },
+    {
+      "id": "country_OM",
+      "type": "country",
+      "label": {
+        "en": "OM",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0639\u064f\u0645\u0627\u0646 \u0627\u0644\u0627\u0642\u062a\u0635\u0627"
+      },
+      "metadata": {
+        "risk_level": "moderate",
+        "macro_sensitivity": 48.1
+      }
+    },
+    {
+      "id": "public_OM",
+      "type": "public_sector",
+      "label": {
+        "en": "OM Public Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645 - OM"
+      },
+      "metadata": {
+        "spending_pressure": 20.2
+      }
+    },
+    {
+      "id": "private_OM",
+      "type": "private_sector",
+      "label": {
+        "en": "OM Private Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - OM"
+      },
+      "metadata": {
+        "operating_pressure": 31.6
+      }
+    },
+    {
+      "id": "country_AE",
+      "type": "country",
+      "label": {
+        "en": "AE",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631"
+      },
+      "metadata": {
+        "risk_level": "moderate",
+        "macro_sensitivity": 47.0
+      }
+    },
+    {
+      "id": "public_AE",
+      "type": "public_sector",
+      "label": {
+        "en": "AE Public Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645 - AE"
+      },
+      "metadata": {
+        "spending_pressure": 17.2
+      }
+    },
+    {
+      "id": "private_AE",
+      "type": "private_sector",
+      "label": {
+        "en": "AE Private Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - AE"
+      },
+      "metadata": {
+        "operating_pressure": 34.4
+      }
+    },
+    {
+      "id": "country_QA",
+      "type": "country",
+      "label": {
+        "en": "QA",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0642\u0637\u0631 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a"
+      },
+      "metadata": {
+        "risk_level": "moderate",
+        "macro_sensitivity": 46.8
+      }
+    },
+    {
+      "id": "public_QA",
+      "type": "public_sector",
+      "label": {
+        "en": "QA Public Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645 - QA"
+      },
+      "metadata": {
+        "spending_pressure": 18.6
+      }
+    },
+    {
+      "id": "private_QA",
+      "type": "private_sector",
+      "label": {
+        "en": "QA Private Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - QA"
+      },
+      "metadata": {
+        "operating_pressure": 32.8
+      }
+    },
+    {
+      "id": "country_SA",
+      "type": "country",
+      "label": {
+        "en": "SA",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628"
+      },
+      "metadata": {
+        "risk_level": "moderate",
+        "macro_sensitivity": 46.0
+      }
+    },
+    {
+      "id": "public_SA",
+      "type": "public_sector",
+      "label": {
+        "en": "SA Public Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645 - SA"
+      },
+      "metadata": {
+        "spending_pressure": 19.0
+      }
+    },
+    {
+      "id": "private_SA",
+      "type": "private_sector",
+      "label": {
+        "en": "SA Private Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - SA"
+      },
+      "metadata": {
+        "operating_pressure": 31.6
+      }
+    },
+    {
+      "id": "country_KW",
+      "type": "country",
+      "label": {
+        "en": "KW",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0627\u0644\u0643\u0648\u064a\u062a \u0627\u0644\u0627\u0642\u062a\u0635"
+      },
+      "metadata": {
+        "risk_level": "moderate",
+        "macro_sensitivity": 45.9
+      }
+    },
+    {
+      "id": "public_KW",
+      "type": "public_sector",
+      "label": {
+        "en": "KW Public Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645 - KW"
+      },
+      "metadata": {
+        "spending_pressure": 19.5
+      }
+    },
+    {
+      "id": "private_KW",
+      "type": "private_sector",
+      "label": {
+        "en": "KW Private Sector",
+        "ar": "\u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635 - KW"
+      },
+      "metadata": {
+        "operating_pressure": 31.2
+      }
+    },
+    {
+      "id": "sector_AVIATION",
+      "type": "sector",
+      "label": {
+        "en": "Aviation",
+        "ar": "\u0627\u0644\u0637\u064a\u0631\u0627\u0646 [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 1] \u0627\u0644\u062a\u0639\u0631"
+      },
+      "metadata": {
+        "exposure_score": 43.8
+      }
+    },
+    {
+      "id": "sector_LOGISTICS",
+      "type": "sector",
+      "label": {
+        "en": "Logistics",
+        "ar": "\u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0644\u0648\u062c\u0633\u062a\u064a\u0629 \u0648\u0645\u0645\u0631\u0627\u062a "
+      },
+      "metadata": {
+        "exposure_score": 38.3
+      }
+    },
+    {
+      "id": "sector_PORTS_MARITIME",
+      "type": "sector",
+      "label": {
+        "en": "Ports Maritime",
+        "ar": "\u0627\u0644\u0645\u0648\u0627\u0646\u0626 \u0648\u0627\u0644\u0646\u0642\u0644 \u0627\u0644\u0628\u062d\u0631\u064a [\u0627\u0644"
+      },
+      "metadata": {
+        "exposure_score": 37.3
+      }
+    },
+    {
+      "id": "sector_OIL_GAS",
+      "type": "sector",
+      "label": {
+        "en": "Oil Gas",
+        "ar": "\u0627\u0644\u0646\u0641\u0637 \u0648\u0627\u0644\u063a\u0627\u0632 / \u0627\u0644\u0637\u0627\u0642\u0629 [\u0627\u0644"
+      },
+      "metadata": {
+        "exposure_score": 33.1
+      }
+    },
+    {
+      "id": "sector_INSURANCE",
+      "type": "sector",
+      "label": {
+        "en": "Insurance",
+        "ar": "\u0627\u0644\u062a\u0623\u0645\u064a\u0646 [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 2] \u0627\u0644\u062a\u0639\u0631"
+      },
+      "metadata": {
+        "exposure_score": 37.1
+      }
+    },
+    {
+      "id": "sector_ECOMMERCE",
+      "type": "sector",
+      "label": {
+        "en": "Ecommerce",
+        "ar": "\u0627\u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 [\u0627\u0644\u0645\u0633"
+      },
+      "metadata": {
+        "exposure_score": 32.3
+      }
+    },
+    {
+      "id": "decision_3c46c037",
+      "type": "decision",
+      "label": {
+        "en": "Activate Critical Infrastructure Protection Protocol",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u0628\u0631\u0648\u062a\u0648\u0643\u0648\u0644 \u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0627\u0644\u062d\u0631\u062c\u0629"
+      },
+      "metadata": {
+        "confidence": 0.92,
+        "urgency": "immediate"
+      }
+    },
+    {
+      "id": "decision_9caee39d",
+      "type": "decision",
+      "label": {
+        "en": "Protect Financial System Decisions",
+        "ar": "\u062d\u0645\u0627\u064a\u0629 \u0642\u0631\u0627\u0631\u0627\u062a \u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u0645\u0627\u0644\u064a"
+      },
+      "metadata": {
+        "confidence": 0.92,
+        "urgency": "immediate"
+      }
+    },
+    {
+      "id": "decision_f94ba5a4",
+      "type": "decision",
+      "label": {
+        "en": "Strengthen Export Corridor Intelligence",
+        "ar": "\u062a\u0639\u0632\u064a\u0632 \u0627\u0633\u062a\u062e\u0628\u0627\u0631\u0627\u062a \u0645\u0645\u0631\u0627\u062a \u0627\u0644\u062a\u0635\u062f\u064a\u0631"
+      },
+      "metadata": {
+        "confidence": 0.92,
+        "urgency": "immediate"
+      }
+    },
+    {
+      "id": "decision_222e2180",
+      "type": "decision",
+      "label": {
+        "en": "Monitor Consumer Demand Resilience",
+        "ar": "\u0645\u0631\u0627\u0642\u0628\u0629 \u0645\u0631\u0648\u0646\u0629 \u0627\u0644\u0637\u0644\u0628 \u0627\u0644\u0627\u0633\u062a\u0647\u0644\u0627\u0643\u064a"
+      },
+      "metadata": {
+        "confidence": 0.92,
+        "urgency": "medium_term"
+      }
+    },
+    {
+      "id": "decision_e27d61ab",
+      "type": "decision",
+      "label": {
+        "en": "Engage Aviation & Maritime Contingency Planning",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u0627\u0644\u062a\u062e\u0637\u064a\u0637 \u0627\u0644\u0627\u062d\u062a\u064a\u0627\u0637\u064a \u0644\u0644\u0637\u064a\u0631\u0627\u0646 \u0648\u0627\u0644\u0646\u0642\u0644 \u0627\u0644\u0628\u062d\u0631\u064a"
+      },
+      "metadata": {
+        "confidence": 0.92,
+        "urgency": "immediate"
+      }
+    },
+    {
+      "id": "decision_ee7cf671",
+      "type": "decision",
+      "label": {
+        "en": "Activate Sovereign Fiscal Stress Protocol",
+        "ar": "\u062a\u0641\u0639\u064a\u0644 \u0628\u0631\u0648\u062a\u0648\u0643\u0648\u0644 \u0627\u0644\u0636\u063a\u0637 \u0627\u0644\u0645\u0627\u0644\u064a \u0627\u0644\u0633\u064a\u0627\u062f\u064a"
+      },
+      "metadata": {
+        "confidence": 0.92,
+        "urgency": "immediate"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_trade_risk",
+      "type": "increases",
+      "weight": 0.76,
+      "label": {
+        "en": "increases trade risk",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_shipping_pressure",
+      "type": "increases",
+      "weight": 0.68,
+      "label": {
+        "en": "increases shipping pressure",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_inflation_pressure",
+      "type": "increases",
+      "weight": 0.48,
+      "label": {
+        "en": "increases inflation pressure",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_energy_exposure",
+      "type": "increases",
+      "weight": 0.4,
+      "label": {
+        "en": "increases energy exposure",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_confidence_pressure",
+      "type": "increases",
+      "weight": 0.36,
+      "label": {
+        "en": "increases confidence pressure",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_demand_pressure",
+      "type": "increases",
+      "weight": 0.32,
+      "label": {
+        "en": "increases demand pressure",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_financing_sensitivity",
+      "type": "increases",
+      "weight": 0.28,
+      "label": {
+        "en": "increases financing sensitivity",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "scenario_scenario_001",
+      "target_id": "signal_regulatory_pressure",
+      "type": "increases",
+      "weight": 0.16,
+      "label": {
+        "en": "increases regulatory pressure",
+        "ar": "\u064a\u0632\u064a\u062f"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.911,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.911,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.911,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.911,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.911,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.911,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.911,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.693,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.693,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.693,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.693,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.693,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.693,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.693,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.476,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.476,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.476,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.9,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.745,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.745,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.745,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.745,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.745,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.745,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.736,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.736,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.736,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.736,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.736,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.736,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.736,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.606,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.606,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.606,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.606,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.606,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.606,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.563,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.563,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.563,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.563,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.563,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_NET_EXPORTS",
+      "type": "pressures",
+      "weight": 1.0,
+      "label": {
+        "en": "pressures net exports",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_BUSINESS_INVESTMENT",
+      "type": "pressures",
+      "weight": 0.99,
+      "label": {
+        "en": "pressures business investment",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_demand_pressure",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "type": "pressures",
+      "weight": 0.828,
+      "label": {
+        "en": "pressures household consumption",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_trade_risk",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.649,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_shipping_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.649,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_inflation_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.649,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_energy_exposure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.649,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_confidence_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.649,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_financing_sensitivity",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.649,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "signal_regulatory_pressure",
+      "target_id": "gdp_GOVERNMENT_SPENDING",
+      "type": "pressures",
+      "weight": 0.649,
+      "label": {
+        "en": "pressures government spending",
+        "ar": "\u064a\u0636\u063a\u0637 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "country_BH",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects BH",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "country_BH",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects BH",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "country_BH",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects BH",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_GOVERNMENT_SPENDING",
+      "target_id": "country_BH",
+      "type": "affects",
+      "weight": 0.563,
+      "label": {
+        "en": "affects BH",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_BH",
+      "target_id": "public_BH",
+      "type": "affects",
+      "weight": 0.198,
+      "label": {
+        "en": "public sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_BH",
+      "target_id": "private_BH",
+      "type": "affects",
+      "weight": 0.332,
+      "label": {
+        "en": "private sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "country_OM",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects OM",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "country_OM",
+      "type": "affects",
+      "weight": 0.99,
+      "label": {
+        "en": "affects OM",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "country_OM",
+      "type": "affects",
+      "weight": 0.828,
+      "label": {
+        "en": "affects OM",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_GOVERNMENT_SPENDING",
+      "target_id": "country_OM",
+      "type": "affects",
+      "weight": 0.649,
+      "label": {
+        "en": "affects OM",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_OM",
+      "target_id": "public_OM",
+      "type": "affects",
+      "weight": 0.20199999999999999,
+      "label": {
+        "en": "public sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_OM",
+      "target_id": "private_OM",
+      "type": "affects",
+      "weight": 0.316,
+      "label": {
+        "en": "private sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "country_AE",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects AE",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "country_AE",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects AE",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "country_AE",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects AE",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_GOVERNMENT_SPENDING",
+      "target_id": "country_AE",
+      "type": "affects",
+      "weight": 0.476,
+      "label": {
+        "en": "affects AE",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_AE",
+      "target_id": "public_AE",
+      "type": "affects",
+      "weight": 0.172,
+      "label": {
+        "en": "public sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_AE",
+      "target_id": "private_AE",
+      "type": "affects",
+      "weight": 0.344,
+      "label": {
+        "en": "private sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "country_QA",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects QA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "country_QA",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects QA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "country_QA",
+      "type": "affects",
+      "weight": 0.828,
+      "label": {
+        "en": "affects QA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_GOVERNMENT_SPENDING",
+      "target_id": "country_QA",
+      "type": "affects",
+      "weight": 0.606,
+      "label": {
+        "en": "affects QA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_QA",
+      "target_id": "public_QA",
+      "type": "affects",
+      "weight": 0.18600000000000003,
+      "label": {
+        "en": "public sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_QA",
+      "target_id": "private_QA",
+      "type": "affects",
+      "weight": 0.32799999999999996,
+      "label": {
+        "en": "private sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "country_SA",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects SA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "country_SA",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects SA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "country_SA",
+      "type": "affects",
+      "weight": 0.911,
+      "label": {
+        "en": "affects SA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_GOVERNMENT_SPENDING",
+      "target_id": "country_SA",
+      "type": "affects",
+      "weight": 0.693,
+      "label": {
+        "en": "affects SA",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_SA",
+      "target_id": "public_SA",
+      "type": "affects",
+      "weight": 0.19,
+      "label": {
+        "en": "public sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_SA",
+      "target_id": "private_SA",
+      "type": "affects",
+      "weight": 0.316,
+      "label": {
+        "en": "private sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "country_KW",
+      "type": "affects",
+      "weight": 1.0,
+      "label": {
+        "en": "affects KW",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "country_KW",
+      "type": "affects",
+      "weight": 0.9,
+      "label": {
+        "en": "affects KW",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "country_KW",
+      "type": "affects",
+      "weight": 0.745,
+      "label": {
+        "en": "affects KW",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_GOVERNMENT_SPENDING",
+      "target_id": "country_KW",
+      "type": "affects",
+      "weight": 0.736,
+      "label": {
+        "en": "affects KW",
+        "ar": "\u064a\u0624\u062b\u0631 \u0639\u0644\u0649"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_KW",
+      "target_id": "public_KW",
+      "type": "affects",
+      "weight": 0.195,
+      "label": {
+        "en": "public sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u0639\u0627\u0645"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "country_KW",
+      "target_id": "private_KW",
+      "type": "affects",
+      "weight": 0.312,
+      "label": {
+        "en": "private sector impact",
+        "ar": "\u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0642\u0637\u0627\u0639 \u0627\u0644\u062e\u0627\u0635"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "sector_AVIATION",
+      "type": "pressures",
+      "weight": 0.43799999999999994,
+      "label": {
+        "en": "exposes aviation",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "sector_AVIATION",
+      "type": "pressures",
+      "weight": 0.43799999999999994,
+      "label": {
+        "en": "exposes aviation",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "sector_AVIATION",
+      "type": "pressures",
+      "weight": 0.43799999999999994,
+      "label": {
+        "en": "exposes aviation",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "sector_LOGISTICS",
+      "type": "pressures",
+      "weight": 0.38299999999999995,
+      "label": {
+        "en": "exposes logistics",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "sector_LOGISTICS",
+      "type": "pressures",
+      "weight": 0.38299999999999995,
+      "label": {
+        "en": "exposes logistics",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "sector_PORTS_MARITIME",
+      "type": "pressures",
+      "weight": 0.373,
+      "label": {
+        "en": "exposes ports_maritime",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "sector_PORTS_MARITIME",
+      "type": "pressures",
+      "weight": 0.373,
+      "label": {
+        "en": "exposes ports_maritime",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "sector_OIL_GAS",
+      "type": "pressures",
+      "weight": 0.331,
+      "label": {
+        "en": "exposes oil_gas",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_GOVERNMENT_SPENDING",
+      "target_id": "sector_OIL_GAS",
+      "type": "pressures",
+      "weight": 0.331,
+      "label": {
+        "en": "exposes oil_gas",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_BUSINESS_INVESTMENT",
+      "target_id": "sector_INSURANCE",
+      "type": "pressures",
+      "weight": 0.371,
+      "label": {
+        "en": "exposes insurance",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "sector_INSURANCE",
+      "type": "pressures",
+      "weight": 0.371,
+      "label": {
+        "en": "exposes insurance",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_HOUSEHOLD_CONSUMPTION",
+      "target_id": "sector_ECOMMERCE",
+      "type": "pressures",
+      "weight": 0.32299999999999995,
+      "label": {
+        "en": "exposes ecommerce",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "gdp_NET_EXPORTS",
+      "target_id": "sector_ECOMMERCE",
+      "type": "pressures",
+      "weight": 0.32299999999999995,
+      "label": {
+        "en": "exposes ecommerce",
+        "ar": "\u064a\u0639\u0631\u0651\u0636"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_AVIATION",
+      "target_id": "decision_3c46c037",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_LOGISTICS",
+      "target_id": "decision_3c46c037",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_PORTS_MARITIME",
+      "target_id": "decision_3c46c037",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_OIL_GAS",
+      "target_id": "decision_3c46c037",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_AVIATION",
+      "target_id": "decision_9caee39d",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_LOGISTICS",
+      "target_id": "decision_9caee39d",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_PORTS_MARITIME",
+      "target_id": "decision_9caee39d",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_OIL_GAS",
+      "target_id": "decision_9caee39d",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_AVIATION",
+      "target_id": "decision_f94ba5a4",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_LOGISTICS",
+      "target_id": "decision_f94ba5a4",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_PORTS_MARITIME",
+      "target_id": "decision_f94ba5a4",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_OIL_GAS",
+      "target_id": "decision_f94ba5a4",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_AVIATION",
+      "target_id": "decision_222e2180",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_LOGISTICS",
+      "target_id": "decision_222e2180",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_PORTS_MARITIME",
+      "target_id": "decision_222e2180",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_OIL_GAS",
+      "target_id": "decision_222e2180",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_AVIATION",
+      "target_id": "decision_e27d61ab",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_LOGISTICS",
+      "target_id": "decision_e27d61ab",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_PORTS_MARITIME",
+      "target_id": "decision_e27d61ab",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_OIL_GAS",
+      "target_id": "decision_e27d61ab",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_AVIATION",
+      "target_id": "decision_ee7cf671",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_LOGISTICS",
+      "target_id": "decision_ee7cf671",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_PORTS_MARITIME",
+      "target_id": "decision_ee7cf671",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    },
+    {
+      "source_id": "sector_OIL_GAS",
+      "target_id": "decision_ee7cf671",
+      "type": "triggers",
+      "weight": 0.547,
+      "label": {
+        "en": "triggers decision",
+        "ar": "\u064a\u0633\u062a\u062f\u0639\u064a \u0642\u0631\u0627\u0631\u0627\u064b"
+      },
+      "explanation": ""
+    }
+  ],
+  "propagation_path": [
+    "scenario_scenario_001",
+    "signal_trade_risk",
+    "signal_shipping_pressure",
+    "signal_inflation_pressure",
+    "signal_energy_exposure",
+    "signal_confidence_pressure",
+    "signal_demand_pressure",
+    "signal_financing_sensitivity",
+    "signal_regulatory_pressure",
+    "gdp_HOUSEHOLD_CONSUMPTION",
+    "gdp_BUSINESS_INVESTMENT",
+    "gdp_GOVERNMENT_SPENDING",
+    "gdp_NET_EXPORTS",
+    "country_BH",
+    "country_OM",
+    "country_AE",
+    "country_QA",
+    "country_SA",
+    "country_KW",
+    "sector_AVIATION",
+    "sector_LOGISTICS",
+    "sector_PORTS_MARITIME",
+    "sector_OIL_GAS",
+    "sector_INSURANCE",
+    "sector_ECOMMERCE",
+    "decision_3c46c037",
+    "decision_9caee39d",
+    "decision_f94ba5a4",
+    "decision_222e2180",
+    "decision_e27d61ab",
+    "decision_ee7cf671"
+  ]
+}

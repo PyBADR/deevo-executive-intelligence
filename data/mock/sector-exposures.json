@@ -1,0 +1,228 @@
+{
+  "scenario_id": "scenario_001",
+  "exposures": [
+    {
+      "sector_code": "AVIATION",
+      "tier": 1,
+      "exposure_score": 43.8,
+      "criticality_adjusted_score": 72.7,
+      "impact_drivers": [
+        "Trade Risk",
+        "Shipping Pressure",
+        "Confidence Pressure",
+        "Energy Exposure",
+        "Inflation Pressure"
+      ],
+      "country_context": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ],
+      "gdp_linkage": [
+        "NET_EXPORTS",
+        "HOUSEHOLD_CONSUMPTION",
+        "BUSINESS_INVESTMENT"
+      ],
+      "decision_relevance": 85.9,
+      "propagation_speed": "immediate",
+      "narrative": {
+        "en": "Aviation [Tier 1 \u2014 Critical Sovereign] exposure at 44/100 (criticality-adjusted: 73). Driven by Trade Risk, Shipping Pressure, Confidence Pressure. GDP linkage: NET_EXPORTS, HOUSEHOLD_CONSUMPTION, BUSINESS_INVESTMENT. Propagation: immediate.",
+        "ar": "\u0627\u0644\u0637\u064a\u0631\u0627\u0646 [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 1] \u0627\u0644\u062a\u0639\u0631\u0636 \u0639\u0646\u062f 44/100 (\u0645\u0639\u062f\u0651\u0644 \u0627\u0644\u062d\u0631\u062c\u064a\u0629: 73). \u0645\u062f\u0641\u0648\u0639 \u0628\u0640 Trade Risk, Shipping Pressure, Confidence Pressure."
+      }
+    },
+    {
+      "sector_code": "LOGISTICS",
+      "tier": 1,
+      "exposure_score": 38.3,
+      "criticality_adjusted_score": 61.0,
+      "impact_drivers": [
+        "Trade Risk",
+        "Shipping Pressure",
+        "Inflation Pressure",
+        "Energy Exposure",
+        "Demand Pressure"
+      ],
+      "country_context": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ],
+      "gdp_linkage": [
+        "NET_EXPORTS",
+        "BUSINESS_INVESTMENT"
+      ],
+      "decision_relevance": 77.7,
+      "propagation_speed": "immediate",
+      "narrative": {
+        "en": "Logistics & Trade Corridors [Tier 1 \u2014 Critical Sovereign] exposure at 38/100 (criticality-adjusted: 61). Driven by Trade Risk, Shipping Pressure, Inflation Pressure. GDP linkage: NET_EXPORTS, BUSINESS_INVESTMENT. Propagation: immediate.",
+        "ar": "\u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0644\u0648\u062c\u0633\u062a\u064a\u0629 \u0648\u0645\u0645\u0631\u0627\u062a \u0627\u0644\u062a\u062c\u0627\u0631\u0629 [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 1] \u0627\u0644\u062a\u0639\u0631\u0636 \u0639\u0646\u062f 38/100 (\u0645\u0639\u062f\u0651\u0644 \u0627\u0644\u062d\u0631\u062c\u064a\u0629: 61). \u0645\u062f\u0641\u0648\u0639 \u0628\u0640 Trade Risk, Shipping Pressure, Inflation Pressure."
+      }
+    },
+    {
+      "sector_code": "PORTS_MARITIME",
+      "tier": 1,
+      "exposure_score": 37.3,
+      "criticality_adjusted_score": 60.1,
+      "impact_drivers": [
+        "Trade Risk",
+        "Shipping Pressure",
+        "Energy Exposure",
+        "Inflation Pressure",
+        "Demand Pressure"
+      ],
+      "country_context": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ],
+      "gdp_linkage": [
+        "NET_EXPORTS",
+        "BUSINESS_INVESTMENT"
+      ],
+      "decision_relevance": 77.0,
+      "propagation_speed": "immediate",
+      "narrative": {
+        "en": "Ports & Maritime [Tier 1 \u2014 Critical Sovereign] exposure at 37/100 (criticality-adjusted: 60). Driven by Trade Risk, Shipping Pressure, Energy Exposure. GDP linkage: NET_EXPORTS, BUSINESS_INVESTMENT. Propagation: immediate.",
+        "ar": "\u0627\u0644\u0645\u0648\u0627\u0646\u0626 \u0648\u0627\u0644\u0646\u0642\u0644 \u0627\u0644\u0628\u062d\u0631\u064a [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 1] \u0627\u0644\u062a\u0639\u0631\u0636 \u0639\u0646\u062f 37/100 (\u0645\u0639\u062f\u0651\u0644 \u0627\u0644\u062d\u0631\u062c\u064a\u0629: 60). \u0645\u062f\u0641\u0648\u0639 \u0628\u0640 Trade Risk, Shipping Pressure, Energy Exposure."
+      }
+    },
+    {
+      "sector_code": "OIL_GAS",
+      "tier": 1,
+      "exposure_score": 33.1,
+      "criticality_adjusted_score": 56.8,
+      "impact_drivers": [
+        "Trade Risk",
+        "Shipping Pressure",
+        "Energy Exposure",
+        "Confidence Pressure",
+        "Inflation Pressure"
+      ],
+      "country_context": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ],
+      "gdp_linkage": [
+        "NET_EXPORTS",
+        "GOVERNMENT_SPENDING"
+      ],
+      "decision_relevance": 74.8,
+      "propagation_speed": "immediate",
+      "narrative": {
+        "en": "Oil & Gas / Energy [Tier 1 \u2014 Critical Sovereign] exposure at 33/100 (criticality-adjusted: 57). Driven by Trade Risk, Shipping Pressure, Energy Exposure. GDP linkage: NET_EXPORTS, GOVERNMENT_SPENDING. Propagation: immediate.",
+        "ar": "\u0627\u0644\u0646\u0641\u0637 \u0648\u0627\u0644\u063a\u0627\u0632 / \u0627\u0644\u0637\u0627\u0642\u0629 [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 1] \u0627\u0644\u062a\u0639\u0631\u0636 \u0639\u0646\u062f 33/100 (\u0645\u0639\u062f\u0651\u0644 \u0627\u0644\u062d\u0631\u062c\u064a\u0629: 57). \u0645\u062f\u0641\u0648\u0639 \u0628\u0640 Trade Risk, Shipping Pressure, Energy Exposure."
+      }
+    },
+    {
+      "sector_code": "BANKING",
+      "tier": 1,
+      "exposure_score": 28.5,
+      "criticality_adjusted_score": 47.9,
+      "impact_drivers": [
+        "Confidence Pressure",
+        "Trade Risk",
+        "Financing Sensitivity",
+        "Inflation Pressure",
+        "Demand Pressure"
+      ],
+      "country_context": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ],
+      "gdp_linkage": [
+        "BUSINESS_INVESTMENT",
+        "HOUSEHOLD_CONSUMPTION"
+      ],
+      "decision_relevance": 68.5,
+      "propagation_speed": "immediate",
+      "narrative": {
+        "en": "Banking System [Tier 1 \u2014 Critical Sovereign] exposure at 28/100 (criticality-adjusted: 48). Driven by Confidence Pressure, Trade Risk, Financing Sensitivity. GDP linkage: BUSINESS_INVESTMENT, HOUSEHOLD_CONSUMPTION. Propagation: immediate.",
+        "ar": "\u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u0645\u0635\u0631\u0641\u064a [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 1] \u0627\u0644\u062a\u0639\u0631\u0636 \u0639\u0646\u062f 28/100 (\u0645\u0639\u062f\u0651\u0644 \u0627\u0644\u062d\u0631\u062c\u064a\u0629: 48). \u0645\u062f\u0641\u0648\u0639 \u0628\u0640 Confidence Pressure, Trade Risk, Financing Sensitivity."
+      }
+    },
+    {
+      "sector_code": "INSURANCE",
+      "tier": 2,
+      "exposure_score": 37.1,
+      "criticality_adjusted_score": 41.6,
+      "impact_drivers": [
+        "Trade Risk",
+        "Shipping Pressure",
+        "Inflation Pressure",
+        "Confidence Pressure",
+        "Financing Sensitivity"
+      ],
+      "country_context": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ],
+      "gdp_linkage": [
+        "BUSINESS_INVESTMENT",
+        "NET_EXPORTS"
+      ],
+      "decision_relevance": 54.1,
+      "propagation_speed": "fast",
+      "narrative": {
+        "en": "Insurance [Tier 2 \u2014 Financial Economic] exposure at 37/100 (criticality-adjusted: 42). Driven by Trade Risk, Shipping Pressure, Inflation Pressure. GDP linkage: BUSINESS_INVESTMENT, NET_EXPORTS. Propagation: fast.",
+        "ar": "\u0627\u0644\u062a\u0623\u0645\u064a\u0646 [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 2] \u0627\u0644\u062a\u0639\u0631\u0636 \u0639\u0646\u062f 37/100 (\u0645\u0639\u062f\u0651\u0644 \u0627\u0644\u062d\u0631\u062c\u064a\u0629: 42). \u0645\u062f\u0641\u0648\u0639 \u0628\u0640 Trade Risk, Shipping Pressure, Inflation Pressure."
+      }
+    },
+    {
+      "sector_code": "ECOMMERCE",
+      "tier": 3,
+      "exposure_score": 32.3,
+      "criticality_adjusted_score": 20.0,
+      "impact_drivers": [
+        "Shipping Pressure",
+        "Trade Risk",
+        "Inflation Pressure",
+        "Demand Pressure",
+        "Confidence Pressure"
+      ],
+      "country_context": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ],
+      "gdp_linkage": [
+        "HOUSEHOLD_CONSUMPTION",
+        "NET_EXPORTS"
+      ],
+      "decision_relevance": 29.0,
+      "propagation_speed": "medium",
+      "narrative": {
+        "en": "E-Commerce [Tier 3 \u2014 Market Growth] exposure at 32/100 (criticality-adjusted: 20). Driven by Shipping Pressure, Trade Risk, Inflation Pressure. GDP linkage: HOUSEHOLD_CONSUMPTION, NET_EXPORTS. Propagation: medium.",
+        "ar": "\u0627\u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 [\u0627\u0644\u0645\u0633\u062a\u0648\u0649 3] \u0627\u0644\u062a\u0639\u0631\u0636 \u0639\u0646\u062f 32/100 (\u0645\u0639\u062f\u0651\u0644 \u0627\u0644\u062d\u0631\u062c\u064a\u0629: 20). \u0645\u062f\u0641\u0648\u0639 \u0628\u0640 Shipping Pressure, Trade Risk, Inflation Pressure."
+      }
+    }
+  ],
+  "tier_summary": {
+    "CRITICAL_SOVEREIGN": 59.7,
+    "FINANCIAL_ECONOMIC": 41.6,
+    "MARKET_GROWTH": 20.0
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "scenario_id": "scenario_001",
+  "signals": [
+    {
+      "type": "trade_risk",
+      "magnitude": -0.76,
+      "confidence": 0.812,
+      "drivers": [
+        "corridor disruption",
+        "tariff escalation",
+        "sanctions exposure",
+        "re-routing costs"
+      ],
+      "explanation": {
+        "en": "Trade route reliability and cross-border flow stability",
+        "ar": "\u0645\u0648\u062b\u0648\u0642\u064a\u0629 \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062a \u0627\u0644\u062a\u062c\u0627\u0631\u064a\u0629 \u0648\u0627\u0633\u062a\u0642\u0631\u0627\u0631 \u0627\u0644\u062a\u062f\u0641\u0642\u0627\u062a \u0627\u0644\u0639\u0627\u0628\u0631\u0629 \u0644\u0644\u062d\u062f\u0648\u062f"
+      }
+    },
+    {
+      "type": "shipping_pressure",
+      "magnitude": -0.68,
+      "confidence": 0.795,
+      "drivers": [
+        "port congestion",
+        "freight rate spikes",
+        "vessel re-routing",
+        "insurance premiums"
+      ],
+      "explanation": {
+        "en": "Shipping logistics stress and maritime corridor dependency",
+        "ar": "\u0636\u063a\u0648\u0637 \u0627\u0644\u0644\u0648\u062c\u0633\u062a\u064a\u0627\u062a \u0627\u0644\u0628\u062d\u0631\u064a\u0629 \u0648\u0627\u0644\u0627\u0639\u062a\u0645\u0627\u062f \u0639\u0644\u0649 \u0627\u0644\u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0645\u0644\u0627\u062d\u064a\u0629"
+      }
+    },
+    {
+      "type": "inflation_pressure",
+      "magnitude": -0.48,
+      "confidence": 0.754,
+      "drivers": [
+        "import cost pass-through",
+        "food price sensitivity",
+        "energy cost transmission",
+        "wage adjustment"
+      ],
+      "explanation": {
+        "en": "Consumer and producer price pressure from imported and structural costs",
+        "ar": "\u0636\u063a\u0648\u0637 \u0627\u0644\u0623\u0633\u0639\u0627\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u0633\u062a\u0647\u0644\u0643 \u0648\u0627\u0644\u0645\u0646\u062a\u062c \u0645\u0646 \u0627\u0644\u062a\u0643\u0627\u0644\u064a\u0641 \u0627\u0644\u0645\u0633\u062a\u0648\u0631\u062f\u0629 \u0648\u0627\u0644\u0647\u064a\u0643\u0644\u064a\u0629"
+      }
+    },
+    {
+      "type": "energy_exposure",
+      "magnitude": -0.4,
+      "confidence": 0.738,
+      "drivers": [
+        "oil price volatility",
+        "production adjustments",
+        "strategic reserve policy",
+        "export dependency"
+      ],
+      "explanation": {
+        "en": "Energy market sensitivity and hydrocarbon revenue exposure",
+        "ar": "\u062d\u0633\u0627\u0633\u064a\u0629 \u0633\u0648\u0642 \u0627\u0644\u0637\u0627\u0642\u0629 \u0648\u0627\u0644\u062a\u0639\u0631\u0636 \u0644\u0625\u064a\u0631\u0627\u062f\u0627\u062a \u0627\u0644\u0647\u064a\u062f\u0631\u0648\u0643\u0631\u0628\u0648\u0646"
+      }
+    },
+    {
+      "type": "confidence_pressure",
+      "magnitude": -0.36,
+      "confidence": 0.73,
+      "drivers": [
+        "investment hesitation",
+        "consumer sentiment",
+        "market volatility",
+        "policy uncertainty"
+      ],
+      "explanation": {
+        "en": "Economic confidence and forward-looking sentiment degradation",
+        "ar": "\u062a\u0631\u0627\u062c\u0639 \u0627\u0644\u062b\u0642\u0629 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a\u0629 \u0648\u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0642\u0628\u0644\u064a\u0629"
+      }
+    },
+    {
+      "type": "demand_pressure",
+      "magnitude": -0.32,
+      "confidence": 0.722,
+      "drivers": [
+        "discretionary spending reduction",
+        "B2B volume decline",
+        "project deferrals",
+        "consumption contraction"
+      ],
+      "explanation": {
+        "en": "Domestic and cross-border demand contraction indicators",
+        "ar": "\u0645\u0624\u0634\u0631\u0627\u062a \u0627\u0646\u0643\u0645\u0627\u0634 \u0627\u0644\u0637\u0644\u0628 \u0627\u0644\u0645\u062d\u0644\u064a \u0648\u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u062d\u062f\u0648\u062f"
+      }
+    },
+    {
+      "type": "financing_sensitivity",
+      "magnitude": -0.28,
+      "confidence": 0.713,
+      "drivers": [
+        "credit tightening",
+        "bond spread widening",
+        "FDI hesitation",
+        "liquidity conditions"
+      ],
+      "explanation": {
+        "en": "Capital market access, credit availability, and funding conditions",
+        "ar": "\u0627\u0644\u0648\u0635\u0648\u0644 \u0625\u0644\u0649 \u0623\u0633\u0648\u0627\u0642 \u0631\u0623\u0633 \u0627\u0644\u0645\u0627\u0644 \u0648\u062a\u0648\u0627\u0641\u0631 \u0627\u0644\u0627\u0626\u062a\u0645\u0627\u0646 \u0648\u0638\u0631\u0648\u0641 \u0627\u0644\u062a\u0645\u0648\u064a\u0644"
+      }
+    },
+    {
+      "type": "regulatory_pressure",
+      "magnitude": -0.16,
+      "confidence": 0.689,
+      "drivers": [
+        "compliance costs",
+        "licensing changes",
+        "cross-border regulation",
+        "policy shifts"
+      ],
+      "explanation": {
+        "en": "Regulatory burden and policy-driven operational adjustments",
+        "ar": "\u0627\u0644\u0639\u0628\u0621 \u0627\u0644\u062a\u0646\u0638\u064a\u0645\u064a \u0648\u0627\u0644\u062a\u0639\u062f\u064a\u0644\u0627\u062a \u0627\u0644\u062a\u0634\u063a\u064a\u0644\u064a\u0629 \u0627\u0644\u0646\u0627\u062a\u062c\u0629 \u0639\u0646 \u0627\u0644\u0633\u064a\u0627\u0633\u0627\u062a"
+      }
+    }
+  ],
+  "overall_stress": 43.0
+}

@@ -1,0 +1,210 @@
+{
+  "spillovers": [
+    {
+      "source_country": "BH",
+      "target_country": "SA",
+      "channel": "trade",
+      "spillover_score": 35.0,
+      "explanation": {
+        "en": "BH trade stress (50) spills into SA with dependency weight 0.70, generating 35/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 BH \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 SA \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.70\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 35/100."
+      }
+    },
+    {
+      "source_country": "BH",
+      "target_country": "SA",
+      "channel": "energy",
+      "spillover_score": 32.5,
+      "explanation": {
+        "en": "BH energy stress (50) spills into SA with dependency weight 0.65, generating 32/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 energy \u0645\u0646 BH \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 SA \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.65\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 32/100."
+      }
+    },
+    {
+      "source_country": "BH",
+      "target_country": "SA",
+      "channel": "finance",
+      "spillover_score": 30.0,
+      "explanation": {
+        "en": "BH finance stress (50) spills into SA with dependency weight 0.60, generating 30/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 BH \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 SA \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.60\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 30/100."
+      }
+    },
+    {
+      "source_country": "SA",
+      "target_country": "AE",
+      "channel": "trade",
+      "spillover_score": 27.6,
+      "explanation": {
+        "en": "SA trade stress (46) spills into AE with dependency weight 0.60, generating 28/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 SA \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.60\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 28/100."
+      }
+    },
+    {
+      "source_country": "SA",
+      "target_country": "BH",
+      "channel": "energy",
+      "spillover_score": 27.6,
+      "explanation": {
+        "en": "SA energy stress (46) spills into BH with dependency weight 0.60, generating 28/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 energy \u0645\u0646 SA \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 BH \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.60\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 28/100."
+      }
+    },
+    {
+      "source_country": "AE",
+      "target_country": "SA",
+      "channel": "trade",
+      "spillover_score": 25.9,
+      "explanation": {
+        "en": "AE trade stress (47) spills into SA with dependency weight 0.55, generating 26/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 AE \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 SA \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.55\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 26/100."
+      }
+    },
+    {
+      "source_country": "AE",
+      "target_country": "BH",
+      "channel": "finance",
+      "spillover_score": 25.9,
+      "explanation": {
+        "en": "AE finance stress (47) spills into BH with dependency weight 0.55, generating 26/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 AE \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 BH \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.55\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 26/100."
+      }
+    },
+    {
+      "source_country": "SA",
+      "target_country": "AE",
+      "channel": "finance",
+      "spillover_score": 25.3,
+      "explanation": {
+        "en": "SA finance stress (46) spills into AE with dependency weight 0.55, generating 25/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 SA \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.55\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 25/100."
+      }
+    },
+    {
+      "source_country": "BH",
+      "target_country": "AE",
+      "channel": "finance",
+      "spillover_score": 25.0,
+      "explanation": {
+        "en": "BH finance stress (50) spills into AE with dependency weight 0.50, generating 25/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 BH \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.50\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 25/100."
+      }
+    },
+    {
+      "source_country": "OM",
+      "target_country": "AE",
+      "channel": "trade",
+      "spillover_score": 24.1,
+      "explanation": {
+        "en": "OM trade stress (48) spills into AE with dependency weight 0.50, generating 24/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 OM \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.50\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 24/100."
+      }
+    },
+    {
+      "source_country": "SA",
+      "target_country": "BH",
+      "channel": "trade",
+      "spillover_score": 23.0,
+      "explanation": {
+        "en": "SA trade stress (46) spills into BH with dependency weight 0.50, generating 23/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 SA \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 BH \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.50\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 23/100."
+      }
+    },
+    {
+      "source_country": "SA",
+      "target_country": "BH",
+      "channel": "finance",
+      "spillover_score": 23.0,
+      "explanation": {
+        "en": "SA finance stress (46) spills into BH with dependency weight 0.50, generating 23/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 SA \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 BH \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.50\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 23/100."
+      }
+    },
+    {
+      "source_country": "AE",
+      "target_country": "OM",
+      "channel": "trade",
+      "spillover_score": 21.1,
+      "explanation": {
+        "en": "AE trade stress (47) spills into OM with dependency weight 0.45, generating 21/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 AE \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 OM \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.45\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 21/100."
+      }
+    },
+    {
+      "source_country": "AE",
+      "target_country": "SA",
+      "channel": "finance",
+      "spillover_score": 21.1,
+      "explanation": {
+        "en": "AE finance stress (47) spills into SA with dependency weight 0.45, generating 21/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 AE \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 SA \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.45\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 21/100."
+      }
+    },
+    {
+      "source_country": "OM",
+      "target_country": "AE",
+      "channel": "finance",
+      "spillover_score": 19.2,
+      "explanation": {
+        "en": "OM finance stress (48) spills into AE with dependency weight 0.40, generating 19/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 OM \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.40\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 19/100."
+      }
+    },
+    {
+      "source_country": "AE",
+      "target_country": "BH",
+      "channel": "trade",
+      "spillover_score": 18.8,
+      "explanation": {
+        "en": "AE trade stress (47) spills into BH with dependency weight 0.40, generating 19/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 AE \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 BH \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.40\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 19/100."
+      }
+    },
+    {
+      "source_country": "QA",
+      "target_country": "AE",
+      "channel": "finance",
+      "spillover_score": 18.7,
+      "explanation": {
+        "en": "QA finance stress (47) spills into AE with dependency weight 0.40, generating 19/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 QA \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.40\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 19/100."
+      }
+    },
+    {
+      "source_country": "BH",
+      "target_country": "AE",
+      "channel": "trade",
+      "spillover_score": 17.5,
+      "explanation": {
+        "en": "BH trade stress (50) spills into AE with dependency weight 0.35, generating 18/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 BH \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.35\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 18/100."
+      }
+    },
+    {
+      "source_country": "QA",
+      "target_country": "AE",
+      "channel": "trade",
+      "spillover_score": 16.4,
+      "explanation": {
+        "en": "QA trade stress (47) spills into AE with dependency weight 0.35, generating 16/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 trade \u0645\u0646 QA \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 AE \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.35\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 16/100."
+      }
+    },
+    {
+      "source_country": "AE",
+      "target_country": "QA",
+      "channel": "finance",
+      "spillover_score": 16.4,
+      "explanation": {
+        "en": "AE finance stress (47) spills into QA with dependency weight 0.35, generating 16/100 spillover pressure.",
+        "ar": "\u0636\u063a\u0637 finance \u0645\u0646 AE \u064a\u0646\u062a\u0642\u0644 \u0625\u0644\u0649 QA \u0628\u0648\u0632\u0646 \u0627\u0639\u062a\u0645\u0627\u062f 0.35\u060c \u0645\u0645\u0627 \u064a\u0648\u0644\u062f \u0636\u063a\u0637 \u0627\u0646\u062a\u0642\u0627\u0644 16/100."
+      }
+    }
+  ],
+  "aggregate_interconnection": 13.8,
+  "most_exposed_country": "SA",
+  "explanation": {
+    "en": "Cross-GCC dependency analysis: 75 spillover channels active. Most exposed: SA. Average spillover: 14/100.",
+    "ar": "\u062a\u062d\u0644\u064a\u0644 \u0627\u0644\u0627\u0639\u062a\u0645\u0627\u062f \u0627\u0644\u0645\u062a\u0628\u0627\u062f\u0644 \u0628\u064a\u0646 \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c: 75 \u0642\u0646\u0627\u0629 \u0627\u0646\u062a\u0642\u0627\u0644 \u0646\u0634\u0637\u0629. \u0627\u0644\u0623\u0643\u062b\u0631 \u062a\u0639\u0631\u0636\u0627\u064b: SA."
+  }
+}
